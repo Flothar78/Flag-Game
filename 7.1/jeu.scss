@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  .flag {
+    display: flex;
+    height: 75%;
+    margin: 2rem 8rem;
+    .blue-stripe {
+      width: 33.33%;
+      background-color: rgb(16, 16, 173);
+    }
+    .white-stripe {
+      width: 33.33%;
+      background-color: rgb(255, 255, 255);
+    }
+    .red-stripe {
+      width: 33.33%;
+      background-color: rgb(204, 30, 30);
+    }
+    .green-stripe {
+      width: 33.33%;
+      background-color: #066e1c
+    }
+    .orange-stripe {
+      width: 33.33%;
+      background-color: #FF6600
+    }
+    .black-stripe {
+      width: 33.33%;
+      background-color: #000000
+    }
+    .yellow-stripe {
+      width: 33.33%;
+      background-color: #FDDB20
+    }
+    .indigo-stripe {
+      width: 33.33%;
+      background-color: #002664
+    }
+    .cobalt-stripe {
+      width: 33.33%;
+      background-color: #012B7F
+    }
+  }
+  .buttonContainer {
+    display: flex;
+    border: solid black 3px;
+    justify-content: center;
+    align-items: center;
+    .btn {
+      border: solid 4px black;
+      width: 40%;
+      padding: 3%;
+      border-radius: 20px 78px;
+    }
+  }
+}
