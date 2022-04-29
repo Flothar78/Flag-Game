@@ -6,7 +6,6 @@ const colors = [
   "orange",
   "black",
   "yellow",
-
   "cobalt",
 ];
 
@@ -18,9 +17,7 @@ const stripeRight = document.getElementById("stripeRight");
 Btns[0].addEventListener("click", function onClick() {
   function getRandomColors() {
     let randomColor = colors[Math.floor(Math.random() * colors.length)];
-    console.log(randomColor);
     let index = colors.indexOf(randomColor);
-    console.log(index);
     colors.splice(index, 1);
     return randomColor;
   }
@@ -34,8 +31,6 @@ Btns[0].addEventListener("click", function onClick() {
     const left = stripeLeft.className.slice(0, -7);
     const middle = stripeMiddle.className.slice(0, -7);
     const right = stripeRight.className.slice(0, -7);
-    console.log(colors);
-    console.log(left, middle, right);
     colors.push(left, middle, right);
     console.log(colors);
   }
@@ -83,12 +78,6 @@ Btns[0].addEventListener("click", function onClick() {
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir le MALI, clique sur OK");
-    } else if (
-      stripeLeft.className == "red-stripe" &&
-      stripeMiddle.className == "white-stripe" &&
-      stripeRight.className == "red-stripe"
-    ) {
-      alert("Pour voir le PEROU, clique sur OK");
     } else if (
       stripeLeft.className == "cobalt-stripe" &&
       stripeMiddle.className == "yellow-stripe" &&
