@@ -44,14 +44,14 @@ body {
   }
   .buttonContainer {
     display: flex;
-    border: solid black 3px;
     justify-content: center;
     align-items: center;
     .btn {
-      border: solid 4px black;
+      border: solid 8px #066e1c;
+      background-color: #c9f5d4;
       width: 40%;
       padding: 3%;
-      border-radius: 20px 78px;
+      border-radius: 20px ;
     }
   }
 }

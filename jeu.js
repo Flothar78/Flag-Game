@@ -32,7 +32,6 @@ Btns[0].addEventListener("click", function onClick() {
     const middle = stripeMiddle.className.slice(0, -7);
     const right = stripeRight.className.slice(0, -7);
     colors.push(left, middle, right);
-    console.log(colors);
   }
   refillArray();
   function resultOfColors() {
