@@ -1,57 +1,169 @@
 html,
 body {
   height: 100%;
-  .flag {
-    display: flex;
-    height: 75%;
-    margin: 2rem 8rem;
-    .blue-stripe {
-      width: 33.33%;
-      background-color: rgb(16, 16, 173);
+  @media screen and (max-width: 899px) {
+    .flag {
+      display: flex;
+      height: 35%;
+      margin: 10rem 2%;
+      .blue-stripe {
+        width: 33.33%;
+        background-color: rgb(16, 16, 173);
+      }
+      .white-stripe {
+        width: 33.33%;
+        background-color: rgb(255, 255, 255);
+      }
+      .red-stripe {
+        width: 33.33%;
+        background-color: rgb(204, 30, 30);
+      }
+      .green-stripe {
+        width: 33.33%;
+        background-color: #066e1c;
+      }
+      .orange-stripe {
+        width: 33.33%;
+        background-color: #ff6600;
+      }
+      .black-stripe {
+        width: 33.33%;
+        background-color: #000000;
+      }
+      .yellow-stripe {
+        width: 33.33%;
+        background-color: #fddb20;
+      }
+      .indigo-stripe {
+        width: 33.33%;
+        background-color: #002664;
+      }
+      .cobalt-stripe {
+        width: 33.33%;
+        background-color: #012b7f;
+      }
     }
-    .white-stripe {
-      width: 33.33%;
-      background-color: rgb(255, 255, 255);
-    }
-    .red-stripe {
-      width: 33.33%;
-      background-color: rgb(204, 30, 30);
-    }
-    .green-stripe {
-      width: 33.33%;
-      background-color: #066e1c
-    }
-    .orange-stripe {
-      width: 33.33%;
-      background-color: #FF6600
-    }
-    .black-stripe {
-      width: 33.33%;
-      background-color: #000000
-    }
-    .yellow-stripe {
-      width: 33.33%;
-      background-color: #FDDB20
-    }
-    .indigo-stripe {
-      width: 33.33%;
-      background-color: #002664
-    }
-    .cobalt-stripe {
-      width: 33.33%;
-      background-color: #012B7F
+    .buttonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .btn {
+        border: solid 8px #066e1c;
+        background-color: #c9f5d4;
+        width: 40%;
+        padding: 3%;
+        border-radius: 20px;
+      }
     }
   }
-  .buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .btn {
-      border: solid 8px #066e1c;
-      background-color: #c9f5d4;
-      width: 40%;
-      padding: 3%;
-      border-radius: 20px ;
+  @media screen and (min-width: 900px) {
+    .flag {
+      display: flex;
+      height: 65%;
+      margin: 3rem 8rem;
+      .blue-stripe {
+        width: 33.33%;
+        background-color: rgb(16, 16, 173);
+      }
+      .white-stripe {
+        width: 33.33%;
+        background-color: rgb(255, 255, 255);
+      }
+      .red-stripe {
+        width: 33.33%;
+        background-color: rgb(204, 30, 30);
+      }
+      .green-stripe {
+        width: 33.33%;
+        background-color: #066e1c;
+      }
+      .orange-stripe {
+        width: 33.33%;
+        background-color: #ff6600;
+      }
+      .black-stripe {
+        width: 33.33%;
+        background-color: #000000;
+      }
+      .yellow-stripe {
+        width: 33.33%;
+        background-color: #fddb20;
+      }
+      .indigo-stripe {
+        width: 33.33%;
+        background-color: #002664;
+      }
+      .cobalt-stripe {
+        width: 33.33%;
+        background-color: #012b7f;
+      }
+    }
+    .buttonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .btn {
+        border: solid 8px #066e1c;
+        background-color: #c9f5d4;
+        width: 40%;
+        padding: 3%;
+        border-radius: 20px;
+      }
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .flag {
+      display: flex;
+      height: 65%;
+      margin: 3rem 8rem;
+      .blue-stripe {
+        width: 33.33%;
+        background-color: rgb(16, 16, 173);
+      }
+      .white-stripe {
+        width: 33.33%;
+        background-color: rgb(255, 255, 255);
+      }
+      .red-stripe {
+        width: 33.33%;
+        background-color: rgb(204, 30, 30);
+      }
+      .green-stripe {
+        width: 33.33%;
+        background-color: #066e1c;
+      }
+      .orange-stripe {
+        width: 33.33%;
+        background-color: #ff6600;
+      }
+      .black-stripe {
+        width: 33.33%;
+        background-color: #000000;
+      }
+      .yellow-stripe {
+        width: 33.33%;
+        background-color: #fddb20;
+      }
+      .indigo-stripe {
+        width: 33.33%;
+        background-color: #002664;
+      }
+      .cobalt-stripe {
+        width: 33.33%;
+        background-color: #012b7f;
+      }
+    }
+    .buttonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .btn {
+        border: solid 8px #066e1c;
+        background-color: #c9f5d4;
+        width: 40%;
+        padding: 3%;
+        border-radius: 20px;
+      }
     }
   }
 }

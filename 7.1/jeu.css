@@ -2,70 +2,206 @@ html,
 body {
   height: 100%;
 }
-html .flag,
+@media screen and (max-width: 899px) {
+  html .flag,
 body .flag {
-  display: flex;
-  height: 75%;
-  margin: 2rem 8rem;
-}
-html .flag .blue-stripe,
+    display: flex;
+    height: 35%;
+    margin: 10rem 2%;
+  }
+  html .flag .blue-stripe,
 body .flag .blue-stripe {
-  width: 33.33%;
-  background-color: rgb(16, 16, 173);
-}
-html .flag .white-stripe,
+    width: 33.33%;
+    background-color: rgb(16, 16, 173);
+  }
+  html .flag .white-stripe,
 body .flag .white-stripe {
-  width: 33.33%;
-  background-color: rgb(255, 255, 255);
-}
-html .flag .red-stripe,
+    width: 33.33%;
+    background-color: rgb(255, 255, 255);
+  }
+  html .flag .red-stripe,
 body .flag .red-stripe {
-  width: 33.33%;
-  background-color: rgb(204, 30, 30);
-}
-html .flag .green-stripe,
+    width: 33.33%;
+    background-color: rgb(204, 30, 30);
+  }
+  html .flag .green-stripe,
 body .flag .green-stripe {
-  width: 33.33%;
-  background-color: #066e1c;
-}
-html .flag .orange-stripe,
+    width: 33.33%;
+    background-color: #066e1c;
+  }
+  html .flag .orange-stripe,
 body .flag .orange-stripe {
-  width: 33.33%;
-  background-color: #FF6600;
-}
-html .flag .black-stripe,
+    width: 33.33%;
+    background-color: #ff6600;
+  }
+  html .flag .black-stripe,
 body .flag .black-stripe {
-  width: 33.33%;
-  background-color: #000000;
-}
-html .flag .yellow-stripe,
+    width: 33.33%;
+    background-color: #000000;
+  }
+  html .flag .yellow-stripe,
 body .flag .yellow-stripe {
-  width: 33.33%;
-  background-color: #FDDB20;
-}
-html .flag .indigo-stripe,
+    width: 33.33%;
+    background-color: #fddb20;
+  }
+  html .flag .indigo-stripe,
 body .flag .indigo-stripe {
-  width: 33.33%;
-  background-color: #002664;
-}
-html .flag .cobalt-stripe,
+    width: 33.33%;
+    background-color: #002664;
+  }
+  html .flag .cobalt-stripe,
 body .flag .cobalt-stripe {
-  width: 33.33%;
-  background-color: #012B7F;
-}
-html .buttonContainer,
+    width: 33.33%;
+    background-color: #012b7f;
+  }
+  html .buttonContainer,
 body .buttonContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-html .buttonContainer .btn,
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html .buttonContainer .btn,
 body .buttonContainer .btn {
-  border: solid 8px #066e1c;
-  background-color: #c9f5d4;
-  width: 40%;
-  padding: 3%;
-  border-radius: 20px;
+    border: solid 8px #066e1c;
+    background-color: #c9f5d4;
+    width: 40%;
+    padding: 3%;
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 900px) {
+  html .flag,
+body .flag {
+    display: flex;
+    height: 65%;
+    margin: 3rem 8rem;
+  }
+  html .flag .blue-stripe,
+body .flag .blue-stripe {
+    width: 33.33%;
+    background-color: rgb(16, 16, 173);
+  }
+  html .flag .white-stripe,
+body .flag .white-stripe {
+    width: 33.33%;
+    background-color: rgb(255, 255, 255);
+  }
+  html .flag .red-stripe,
+body .flag .red-stripe {
+    width: 33.33%;
+    background-color: rgb(204, 30, 30);
+  }
+  html .flag .green-stripe,
+body .flag .green-stripe {
+    width: 33.33%;
+    background-color: #066e1c;
+  }
+  html .flag .orange-stripe,
+body .flag .orange-stripe {
+    width: 33.33%;
+    background-color: #ff6600;
+  }
+  html .flag .black-stripe,
+body .flag .black-stripe {
+    width: 33.33%;
+    background-color: #000000;
+  }
+  html .flag .yellow-stripe,
+body .flag .yellow-stripe {
+    width: 33.33%;
+    background-color: #fddb20;
+  }
+  html .flag .indigo-stripe,
+body .flag .indigo-stripe {
+    width: 33.33%;
+    background-color: #002664;
+  }
+  html .flag .cobalt-stripe,
+body .flag .cobalt-stripe {
+    width: 33.33%;
+    background-color: #012b7f;
+  }
+  html .buttonContainer,
+body .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html .buttonContainer .btn,
+body .buttonContainer .btn {
+    border: solid 8px #066e1c;
+    background-color: #c9f5d4;
+    width: 40%;
+    padding: 3%;
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html .flag,
+body .flag {
+    display: flex;
+    height: 65%;
+    margin: 3rem 8rem;
+  }
+  html .flag .blue-stripe,
+body .flag .blue-stripe {
+    width: 33.33%;
+    background-color: rgb(16, 16, 173);
+  }
+  html .flag .white-stripe,
+body .flag .white-stripe {
+    width: 33.33%;
+    background-color: rgb(255, 255, 255);
+  }
+  html .flag .red-stripe,
+body .flag .red-stripe {
+    width: 33.33%;
+    background-color: rgb(204, 30, 30);
+  }
+  html .flag .green-stripe,
+body .flag .green-stripe {
+    width: 33.33%;
+    background-color: #066e1c;
+  }
+  html .flag .orange-stripe,
+body .flag .orange-stripe {
+    width: 33.33%;
+    background-color: #ff6600;
+  }
+  html .flag .black-stripe,
+body .flag .black-stripe {
+    width: 33.33%;
+    background-color: #000000;
+  }
+  html .flag .yellow-stripe,
+body .flag .yellow-stripe {
+    width: 33.33%;
+    background-color: #fddb20;
+  }
+  html .flag .indigo-stripe,
+body .flag .indigo-stripe {
+    width: 33.33%;
+    background-color: #002664;
+  }
+  html .flag .cobalt-stripe,
+body .flag .cobalt-stripe {
+    width: 33.33%;
+    background-color: #012b7f;
+  }
+  html .buttonContainer,
+body .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html .buttonContainer .btn,
+body .buttonContainer .btn {
+    border: solid 8px #066e1c;
+    background-color: #c9f5d4;
+    width: 40%;
+    padding: 3%;
+    border-radius: 20px;
+  }
 }
 
 /*# sourceMappingURL=jeu.css.map */
