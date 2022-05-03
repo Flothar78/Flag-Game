@@ -9,12 +9,12 @@ const colors = [
   "cobalt",
 ];
 
-const Btns = document.getElementsByClassName("btn");
+const Btn = document.getElementById("btn");
 const stripeLeft = document.getElementById("stripeLeft");
 const stripeMiddle = document.getElementById("stripeMiddle");
 const stripeRight = document.getElementById("stripeRight");
 
-Btns[0].addEventListener("click", function onClick() {
+Btn.addEventListener("click", function onClick() {
   function getRandomColors() {
     let randomColor = colors[Math.floor(Math.random() * colors.length)];
     let index = colors.indexOf(randomColor);
@@ -41,48 +41,64 @@ Btns[0].addEventListener("click", function onClick() {
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir la FRANCE clique sur OK");
+      const classButton = document.getElementById("btn");
+      classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "green-stripe" &&
       stripeMiddle.className == "white-stripe" &&
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir l'ITALIE clique sur OK");
+      const classButton = document.getElementById("btn");
+      classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "orange-stripe" &&
       stripeMiddle.className == "white-stripe" &&
       stripeRight.className == "green-stripe"
     ) {
-      alert("Pour voir la CÔTE D'IVOIRE, clique sur OK");
+      alert("Pour voir la CÔTE-D'IVOIRE clique sur OK");
+      const classButton = document.getElementById("btn");
+      classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "green-stripe" &&
       stripeMiddle.className == "white-stripe" &&
       stripeRight.className == "orange-stripe"
     ) {
-      alert("Pour voir l'IRLANDE, clique sur OK");
+      alert("Pour voir l'IRLANDE clique sur OK");
+      const classButton = document.getElementById("btn");
+      classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "black-stripe" &&
       stripeMiddle.className == "yellow-stripe" &&
       stripeRight.className == "red-stripe"
     ) {
-      alert("Pour voir la BELGIQUE, clique sur OK");
+      alert("Pour voir la BELGIQUE clique sur OK");
+      const classButton = document.getElementById("btn");
+      classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "red-stripe" &&
       stripeMiddle.className == "yellow-stripe" &&
       stripeRight.className == "green-stripe"
     ) {
-      alert("Pour voir la GUINEE, clique sur OK");
+      alert("Pour voir la GUINEE clique sur OK");
+      const classButton = document.getElementById("btn");
+      classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "green-stripe" &&
       stripeMiddle.className == "yellow-stripe" &&
       stripeRight.className == "red-stripe"
     ) {
-      alert("Pour voir le MALI, clique sur OK");
+      alert("Pour voir le MALI clique sur OK");
+      const classButton = document.getElementById("btn");
+      classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "cobalt-stripe" &&
       stripeMiddle.className == "yellow-stripe" &&
       stripeRight.className == "red-stripe"
     ) {
-      alert("Pour voir le ROUMANIE, clique sur OK");
+      alert("Pour voir la ROUMANIE clique sur OK");
+      const classButton = document.getElementById("btn");
+      classButton.className = stripeMiddle.className;
     }
   }
   resultOfColors();

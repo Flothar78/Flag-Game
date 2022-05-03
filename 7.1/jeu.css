@@ -2,12 +2,12 @@ html,
 body {
   height: 100%;
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 599px) {
   html .flag,
 body .flag {
     display: flex;
-    height: 35%;
-    margin: 10rem 2%;
+    height: 45%;
+    margin: 5rem 2%;
   }
   html .flag .blue-stripe,
 body .flag .blue-stripe {
@@ -60,8 +60,8 @@ body .buttonContainer {
     justify-content: center;
     align-items: center;
   }
-  html .buttonContainer .btn,
-body .buttonContainer .btn {
+  html .buttonContainer #btn,
+body .buttonContainer #btn {
     border: solid 8px #066e1c;
     background-color: #c9f5d4;
     width: 40%;
@@ -69,7 +69,74 @@ body .buttonContainer .btn {
     border-radius: 20px;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  html .flag,
+body .flag {
+    display: flex;
+    height: 57%;
+    margin: 5rem 2%;
+  }
+  html .flag .blue-stripe,
+body .flag .blue-stripe {
+    width: 33.33%;
+    background-color: rgb(16, 16, 173);
+  }
+  html .flag .white-stripe,
+body .flag .white-stripe {
+    width: 33.33%;
+    background-color: rgb(255, 255, 255);
+  }
+  html .flag .red-stripe,
+body .flag .red-stripe {
+    width: 33.33%;
+    background-color: rgb(204, 30, 30);
+  }
+  html .flag .green-stripe,
+body .flag .green-stripe {
+    width: 33.33%;
+    background-color: #066e1c;
+  }
+  html .flag .orange-stripe,
+body .flag .orange-stripe {
+    width: 33.33%;
+    background-color: #ff6600;
+  }
+  html .flag .black-stripe,
+body .flag .black-stripe {
+    width: 33.33%;
+    background-color: #000000;
+  }
+  html .flag .yellow-stripe,
+body .flag .yellow-stripe {
+    width: 33.33%;
+    background-color: #fddb20;
+  }
+  html .flag .indigo-stripe,
+body .flag .indigo-stripe {
+    width: 33.33%;
+    background-color: #002664;
+  }
+  html .flag .cobalt-stripe,
+body .flag .cobalt-stripe {
+    width: 33.33%;
+    background-color: #012b7f;
+  }
+  html .buttonContainer,
+body .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html .buttonContainer #btn,
+body .buttonContainer #btn {
+    border: solid 8px #066e1c;
+    background-color: #c9f5d4;
+    width: 40%;
+    padding: 3%;
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1199px) {
   html .flag,
 body .flag {
     display: flex;
@@ -127,8 +194,8 @@ body .buttonContainer {
     justify-content: center;
     align-items: center;
   }
-  html .buttonContainer .btn,
-body .buttonContainer .btn {
+  html .buttonContainer #btn,
+body .buttonContainer #btn {
     border: solid 8px #066e1c;
     background-color: #c9f5d4;
     width: 40%;
@@ -140,7 +207,7 @@ body .buttonContainer .btn {
   html .flag,
 body .flag {
     display: flex;
-    height: 65%;
+    height: 70%;
     margin: 3rem 8rem;
   }
   html .flag .blue-stripe,
@@ -194,9 +261,9 @@ body .buttonContainer {
     justify-content: center;
     align-items: center;
   }
-  html .buttonContainer .btn,
-body .buttonContainer .btn {
-    border: solid 8px #066e1c;
+  html .buttonContainer #btn,
+body .buttonContainer #btn {
+    border: solid 8px;
     background-color: #c9f5d4;
     width: 40%;
     padding: 3%;
