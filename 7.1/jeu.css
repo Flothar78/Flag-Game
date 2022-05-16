@@ -98,7 +98,7 @@ body .buttonContainer .cobalt-stripe {
   }
   html .buttonContainer #btn,
 body .buttonContainer #btn {
-    background-color: #c9f5d4;
+    background: linear-gradient(#012b7f, #ff6600);
     width: 40%;
     padding: 3%;
     border-radius: 20px;
