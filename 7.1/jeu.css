@@ -60,9 +60,44 @@ body .buttonContainer {
     justify-content: center;
     align-items: center;
   }
+  html .buttonContainer .blue-stripe,
+body .buttonContainer .blue-stripe {
+    border: solid 8px rgb(16, 16, 173);
+  }
+  html .buttonContainer .white-stripe,
+body .buttonContainer .white-stripe {
+    border: solid 8px rgb(255, 255, 255);
+  }
+  html .buttonContainer .red-stripe,
+body .buttonContainer .red-stripe {
+    border: solid 8px rgb(204, 30, 30);
+  }
+  html .buttonContainer .green-stripe,
+body .buttonContainer .green-stripe {
+    border: solid 8px #066e1c;
+  }
+  html .buttonContainer .orange-stripe,
+body .buttonContainer .orange-stripe {
+    border: solid 8px #ff6600;
+  }
+  html .buttonContainer .black-stripe,
+body .buttonContainer .black-stripe {
+    border: solid 8px #000000;
+  }
+  html .buttonContainer .yellow-stripe,
+body .buttonContainer .yellow-stripe {
+    border: solid 8px #fddb20;
+  }
+  html .buttonContainer .indigo-stripe,
+body .buttonContainer .indigo-stripe {
+    border: solid 8px #002664;
+  }
+  html .buttonContainer .cobalt-stripe,
+body .buttonContainer .cobalt-stripe {
+    border: solid 8px #012b7f;
+  }
   html .buttonContainer #btn,
 body .buttonContainer #btn {
-    border: solid 8px #066e1c;
     background-color: #c9f5d4;
     width: 40%;
     padding: 3%;
@@ -127,9 +162,44 @@ body .buttonContainer {
     justify-content: center;
     align-items: center;
   }
+  html .buttonContainer .blue-stripe,
+body .buttonContainer .blue-stripe {
+    border: solid 8px rgb(16, 16, 173);
+  }
+  html .buttonContainer .white-stripe,
+body .buttonContainer .white-stripe {
+    border: solid 8px rgb(255, 255, 255);
+  }
+  html .buttonContainer .red-stripe,
+body .buttonContainer .red-stripe {
+    border: solid 8px rgb(204, 30, 30);
+  }
+  html .buttonContainer .green-stripe,
+body .buttonContainer .green-stripe {
+    border: solid 8px #066e1c;
+  }
+  html .buttonContainer .orange-stripe,
+body .buttonContainer .orange-stripe {
+    border: solid 8px #ff6600;
+  }
+  html .buttonContainer .black-stripe,
+body .buttonContainer .black-stripe {
+    border: solid 8px #000000;
+  }
+  html .buttonContainer .yellow-stripe,
+body .buttonContainer .yellow-stripe {
+    border: solid 8px #fddb20;
+  }
+  html .buttonContainer .indigo-stripe,
+body .buttonContainer .indigo-stripe {
+    border: solid 8px #002664;
+  }
+  html .buttonContainer .cobalt-stripe,
+body .buttonContainer .cobalt-stripe {
+    border: solid 8px #012b7f;
+  }
   html .buttonContainer #btn,
 body .buttonContainer #btn {
-    border: solid 8px #066e1c;
     background-color: #c9f5d4;
     width: 40%;
     padding: 3%;
@@ -230,9 +300,44 @@ body .buttonContainer {
     justify-content: center;
     align-items: center;
   }
+  html .buttonContainer .blue-stripe,
+body .buttonContainer .blue-stripe {
+    border: solid 8px rgb(16, 16, 173);
+  }
+  html .buttonContainer .white-stripe,
+body .buttonContainer .white-stripe {
+    border: solid 8px rgb(255, 255, 255);
+  }
+  html .buttonContainer .red-stripe,
+body .buttonContainer .red-stripe {
+    border: solid 8px rgb(204, 30, 30);
+  }
+  html .buttonContainer .green-stripe,
+body .buttonContainer .green-stripe {
+    border: solid 8px #066e1c;
+  }
+  html .buttonContainer .orange-stripe,
+body .buttonContainer .orange-stripe {
+    border: solid 8px #ff6600;
+  }
+  html .buttonContainer .black-stripe,
+body .buttonContainer .black-stripe {
+    border: solid 8px #000000;
+  }
+  html .buttonContainer .yellow-stripe,
+body .buttonContainer .yellow-stripe {
+    border: solid 8px #fddb20;
+  }
+  html .buttonContainer .indigo-stripe,
+body .buttonContainer .indigo-stripe {
+    border: solid 8px #002664;
+  }
+  html .buttonContainer .cobalt-stripe,
+body .buttonContainer .cobalt-stripe {
+    border: solid 8px #012b7f;
+  }
   html .buttonContainer #btn,
 body .buttonContainer #btn {
-    border: solid 8px #066e1c;
     background-color: #c9f5d4;
     width: 40%;
     padding: 3%;
@@ -297,9 +402,44 @@ body .buttonContainer {
     justify-content: center;
     align-items: center;
   }
+  html .buttonContainer .blue-stripe,
+body .buttonContainer .blue-stripe {
+    border: solid 8px rgb(16, 16, 173);
+  }
+  html .buttonContainer .white-stripe,
+body .buttonContainer .white-stripe {
+    border: solid 8px rgb(255, 255, 255);
+  }
+  html .buttonContainer .red-stripe,
+body .buttonContainer .red-stripe {
+    border: solid 8px rgb(204, 30, 30);
+  }
+  html .buttonContainer .green-stripe,
+body .buttonContainer .green-stripe {
+    border: solid 8px #066e1c;
+  }
+  html .buttonContainer .orange-stripe,
+body .buttonContainer .orange-stripe {
+    border: solid 8px #ff6600;
+  }
+  html .buttonContainer .black-stripe,
+body .buttonContainer .black-stripe {
+    border: solid 8px #000000;
+  }
+  html .buttonContainer .yellow-stripe,
+body .buttonContainer .yellow-stripe {
+    border: solid 8px #fddb20;
+  }
+  html .buttonContainer .indigo-stripe,
+body .buttonContainer .indigo-stripe {
+    border: solid 8px #002664;
+  }
+  html .buttonContainer .cobalt-stripe,
+body .buttonContainer .cobalt-stripe {
+    border: solid 8px #012b7f;
+  }
   html .buttonContainer #btn,
 body .buttonContainer #btn {
-    border: solid 8px;
     background-color: #c9f5d4;
     width: 40%;
     padding: 3%;
