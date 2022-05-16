@@ -108,6 +108,33 @@ body {
         width: 40%;
         padding: 3%;
         border-radius: 20px;
+        .blue-stripe {
+          background-color: rgb(16, 16, 173);
+        }
+        .white-stripe {
+          background-color: rgb(255, 255, 255);
+        }
+        .red-stripe {
+          background-color: rgb(204, 30, 30);
+        }
+        .green-stripe {
+          background-color: #066e1c;
+        }
+        .orange-stripe {
+          background-color: #ff6600;
+        }
+        .black-stripe {
+          background-color: #000000;
+        }
+        .yellow-stripe {
+          background-color: #fddb20;
+        }
+        .indigo-stripe {
+          background-color: #002664;
+        }
+        .cobalt-stripe {
+          background-color: #012b7f;
+        }
       }
     }
   }

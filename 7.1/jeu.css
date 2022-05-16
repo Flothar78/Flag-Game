@@ -135,6 +135,42 @@ body .buttonContainer #btn {
     padding: 3%;
     border-radius: 20px;
   }
+  html .buttonContainer #btn .blue-stripe,
+body .buttonContainer #btn .blue-stripe {
+    background-color: rgb(16, 16, 173);
+  }
+  html .buttonContainer #btn .white-stripe,
+body .buttonContainer #btn .white-stripe {
+    background-color: rgb(255, 255, 255);
+  }
+  html .buttonContainer #btn .red-stripe,
+body .buttonContainer #btn .red-stripe {
+    background-color: rgb(204, 30, 30);
+  }
+  html .buttonContainer #btn .green-stripe,
+body .buttonContainer #btn .green-stripe {
+    background-color: #066e1c;
+  }
+  html .buttonContainer #btn .orange-stripe,
+body .buttonContainer #btn .orange-stripe {
+    background-color: #ff6600;
+  }
+  html .buttonContainer #btn .black-stripe,
+body .buttonContainer #btn .black-stripe {
+    background-color: #000000;
+  }
+  html .buttonContainer #btn .yellow-stripe,
+body .buttonContainer #btn .yellow-stripe {
+    background-color: #fddb20;
+  }
+  html .buttonContainer #btn .indigo-stripe,
+body .buttonContainer #btn .indigo-stripe {
+    background-color: #002664;
+  }
+  html .buttonContainer #btn .cobalt-stripe,
+body .buttonContainer #btn .cobalt-stripe {
+    background-color: #012b7f;
+  }
 }
 @media screen and (min-width: 900px) and (max-width: 1199px) {
   html .flag,
