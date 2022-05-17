@@ -32,6 +32,7 @@ Btn.addEventListener("click", function onClick() {
     const middle = stripeMiddle.className.slice(0, -7);
     const right = stripeRight.className.slice(0, -7);
     colors.push(left, middle, right);
+    // Donne couleur du drapeau au bouton //
     function setGradientColors() {
       Btn.style.background =
         "linear-gradient(to right, " +
