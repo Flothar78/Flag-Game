@@ -1,13 +1,4 @@
-const colors = [
-  "blue",
-  "white",
-  "red",
-  "green",
-  "orange",
-  "black",
-  "yellow",
-  "cobalt",
-];
+const colors = ["blue", "white", "red", "green", "orange", "black", "yellow"];
 
 const Btn = document.getElementById("btn");
 const stripeLeft = document.getElementById("stripeLeft");
@@ -28,89 +19,78 @@ Btn.addEventListener("click", function onClick() {
   }
   giveColors();
   function refillArray() {
-    const left = stripeLeft.className.slice(0, -7);
-    const middle = stripeMiddle.className.slice(0, -7);
-    const right = stripeRight.className.slice(0, -7);
+    let left = stripeLeft.className.slice(0, -7);
+    let middle = stripeMiddle.className.slice(0, -7);
+    let right = stripeRight.className.slice(0, -7);
     colors.push(left, middle, right);
-    // Donne couleur du drapeau au bouton //
-    function setGradientColors() {
-      Btn.style.background =
-        "linear-gradient(to right, " +
-        left +
-        ", " +
-        middle +
-        ", " +
-        right +
-        ")";
-    }
-    setGradientColors();
   }
   refillArray();
   function resultOfColors() {
+    // Set flag colors to button //
+    function setGradientColors() {
+      let left = stripeLeft.className.slice(0, -7);
+      let middle = stripeMiddle.className.slice(0, -7);
+      let right = stripeRight.className.slice(0, -7);
+      Btn.style.background =
+        "linear-gradient(84deg, " + left + ", " + middle + ", " + right + ")";
+    }
+    // matching colors to a country
     if (
       stripeLeft.className == "blue-stripe" &&
       stripeMiddle.className == "white-stripe" &&
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir la FRANCE clique sur OK");
-      const classButton = Btn;
-      classButton.className = stripeMiddle.className;
+      setGradientColors();
     } else if (
       stripeLeft.className == "green-stripe" &&
       stripeMiddle.className == "white-stripe" &&
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir l'ITALIE clique sur OK");
-      const classButton = Btn;
-      classButton.className = stripeMiddle.className;
+      setGradientColors();
     } else if (
       stripeLeft.className == "orange-stripe" &&
       stripeMiddle.className == "white-stripe" &&
       stripeRight.className == "green-stripe"
     ) {
       alert("Pour voir la CÔTE-D'IVOIRE clique sur OK");
-      const classButton = Btn;
-      classButton.className = stripeMiddle.className;
+      setGradientColors();
     } else if (
       stripeLeft.className == "green-stripe" &&
       stripeMiddle.className == "white-stripe" &&
       stripeRight.className == "orange-stripe"
     ) {
       alert("Pour voir l'IRLANDE clique sur OK");
-      const classButton = Btn;
-      classButton.className = stripeMiddle.className;
+      setGradientColors();
     } else if (
       stripeLeft.className == "black-stripe" &&
       stripeMiddle.className == "yellow-stripe" &&
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir la BELGIQUE clique sur OK");
-      const classButton = Btn;
-      classButton.className = stripeMiddle.className;
+      setGradientColors();
     } else if (
       stripeLeft.className == "red-stripe" &&
       stripeMiddle.className == "yellow-stripe" &&
       stripeRight.className == "green-stripe"
     ) {
       alert("Pour voir la GUINEE clique sur OK");
-      const classButton = Btn;
-      classButton.className = stripeMiddle.className;
+      setGradientColors();
     } else if (
       stripeLeft.className == "green-stripe" &&
       stripeMiddle.className == "yellow-stripe" &&
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir le MALI clique sur OK");
-      const classButton = Btn;
-      classButton.className = stripeMiddle.className;
+      setGradientColors();
     } else if (
-      stripeLeft.className == "cobalt-stripe" &&
+      stripeLeft.className == "blue-stripe" &&
       stripeMiddle.className == "yellow-stripe" &&
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir la ROUMANIE clique sur OK");
-      const classButton = Btn;
-      classButton.className = stripeMiddle.className;
+      setGradientColors();
     }
   }
   resultOfColors();

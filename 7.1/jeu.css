@@ -49,11 +49,6 @@ body .flag .indigo-stripe {
     width: 33.33%;
     background-color: #002664;
   }
-  html .flag .cobalt-stripe,
-body .flag .cobalt-stripe {
-    width: 33.33%;
-    background-color: #012b7f;
-  }
   html .buttonContainer,
 body .buttonContainer {
     display: flex;
@@ -97,10 +92,6 @@ body .buttonContainer .yellow-stripe {
   html .buttonContainer .indigo-stripe,
 body .buttonContainer .indigo-stripe {
     border: solid 8px #002664;
-  }
-  html .buttonContainer .cobalt-stripe,
-body .buttonContainer .cobalt-stripe {
-    border: solid 8px #012b7f;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 899px) {
@@ -150,11 +141,6 @@ body .flag .indigo-stripe {
     width: 33.33%;
     background-color: #002664;
   }
-  html .flag .cobalt-stripe,
-body .flag .cobalt-stripe {
-    width: 33.33%;
-    background-color: #012b7f;
-  }
   html .buttonContainer,
 body .buttonContainer {
     display: flex;
@@ -199,10 +185,6 @@ body .buttonContainer .yellow-stripe {
   html .buttonContainer .indigo-stripe,
 body .buttonContainer .indigo-stripe {
     border: solid 8px #002664;
-  }
-  html .buttonContainer .cobalt-stripe,
-body .buttonContainer .cobalt-stripe {
-    border: solid 8px #012b7f;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1199px) {
@@ -252,11 +234,6 @@ body .flag .indigo-stripe {
     width: 33.33%;
     background-color: #002664;
   }
-  html .flag .cobalt-stripe,
-body .flag .cobalt-stripe {
-    width: 33.33%;
-    background-color: #012b7f;
-  }
   html .buttonContainer,
 body .buttonContainer {
     display: flex;
@@ -301,10 +278,6 @@ body .buttonContainer .yellow-stripe {
   html .buttonContainer .indigo-stripe,
 body .buttonContainer .indigo-stripe {
     border: solid 8px #002664;
-  }
-  html .buttonContainer .cobalt-stripe,
-body .buttonContainer .cobalt-stripe {
-    border: solid 8px #012b7f;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -354,11 +327,6 @@ body .flag .indigo-stripe {
     width: 33.33%;
     background-color: #002664;
   }
-  html .flag .cobalt-stripe,
-body .flag .cobalt-stripe {
-    width: 33.33%;
-    background-color: #012b7f;
-  }
   html .buttonContainer,
 body .buttonContainer {
     display: flex;
@@ -403,10 +371,6 @@ body .buttonContainer .yellow-stripe {
   html .buttonContainer .indigo-stripe,
 body .buttonContainer .indigo-stripe {
     border: solid 8px #002664;
-  }
-  html .buttonContainer .cobalt-stripe,
-body .buttonContainer .cobalt-stripe {
-    border: solid 8px #012b7f;
   }
 }
 
