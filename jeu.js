@@ -31,8 +31,18 @@ Btn.addEventListener("click", function onClick() {
     const left = stripeLeft.className.slice(0, -7);
     const middle = stripeMiddle.className.slice(0, -7);
     const right = stripeRight.className.slice(0, -7);
-    //get colors to apply them to color classes of #btn//
     colors.push(left, middle, right);
+    function setGradientColors() {
+      Btn.style.background =
+        "linear-gradient(to right, " +
+        left +
+        ", " +
+        middle +
+        ", " +
+        right +
+        ")";
+    }
+    setGradientColors();
   }
   refillArray();
   function resultOfColors() {
@@ -42,7 +52,7 @@ Btn.addEventListener("click", function onClick() {
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir la FRANCE clique sur OK");
-      const classButton = document.getElementById("btn");
+      const classButton = Btn;
       classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "green-stripe" &&
@@ -50,7 +60,7 @@ Btn.addEventListener("click", function onClick() {
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir l'ITALIE clique sur OK");
-      const classButton = document.getElementById("btn");
+      const classButton = Btn;
       classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "orange-stripe" &&
@@ -58,7 +68,7 @@ Btn.addEventListener("click", function onClick() {
       stripeRight.className == "green-stripe"
     ) {
       alert("Pour voir la CÔTE-D'IVOIRE clique sur OK");
-      const classButton = document.getElementById("btn");
+      const classButton = Btn;
       classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "green-stripe" &&
@@ -66,7 +76,7 @@ Btn.addEventListener("click", function onClick() {
       stripeRight.className == "orange-stripe"
     ) {
       alert("Pour voir l'IRLANDE clique sur OK");
-      const classButton = document.getElementById("btn");
+      const classButton = Btn;
       classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "black-stripe" &&
@@ -74,7 +84,7 @@ Btn.addEventListener("click", function onClick() {
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir la BELGIQUE clique sur OK");
-      const classButton = document.getElementById("btn");
+      const classButton = Btn;
       classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "red-stripe" &&
@@ -82,7 +92,7 @@ Btn.addEventListener("click", function onClick() {
       stripeRight.className == "green-stripe"
     ) {
       alert("Pour voir la GUINEE clique sur OK");
-      const classButton = document.getElementById("btn");
+      const classButton = Btn;
       classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "green-stripe" &&
@@ -90,7 +100,7 @@ Btn.addEventListener("click", function onClick() {
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir le MALI clique sur OK");
-      const classButton = document.getElementById("btn");
+      const classButton = Btn;
       classButton.className = stripeMiddle.className;
     } else if (
       stripeLeft.className == "cobalt-stripe" &&
@@ -98,7 +108,7 @@ Btn.addEventListener("click", function onClick() {
       stripeRight.className == "red-stripe"
     ) {
       alert("Pour voir la ROUMANIE clique sur OK");
-      const classButton = document.getElementById("btn");
+      const classButton = Btn;
       classButton.className = stripeMiddle.className;
     }
   }

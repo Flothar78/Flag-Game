@@ -12,17 +12,17 @@ body .flag {
   html .flag .blue-stripe,
 body .flag .blue-stripe {
     width: 33.33%;
-    background-color: rgb(16, 16, 173);
+    background-color: #1010ad;
   }
   html .flag .white-stripe,
 body .flag .white-stripe {
     width: 33.33%;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
   }
   html .flag .red-stripe,
 body .flag .red-stripe {
     width: 33.33%;
-    background-color: rgb(204, 30, 30);
+    background-color: #cc1e1e;
   }
   html .flag .green-stripe,
 body .flag .green-stripe {
@@ -62,22 +62,21 @@ body .buttonContainer {
   }
   html .buttonContainer #btn,
 body .buttonContainer #btn {
-    background: linear-gradient(#13ee3b, #ff6600);
     width: 60%;
     padding: 3%;
     border-radius: 20px;
   }
   html .buttonContainer .blue-stripe,
 body .buttonContainer .blue-stripe {
-    border: solid 8px rgb(16, 16, 173);
+    border: solid 8px #1010ad;
   }
   html .buttonContainer .white-stripe,
 body .buttonContainer .white-stripe {
-    border: solid 8px rgb(255, 255, 255);
+    border: solid 8px #ffffff;
   }
   html .buttonContainer .red-stripe,
 body .buttonContainer .red-stripe {
-    border: solid 8px rgb(204, 30, 30);
+    border: solid 8px #cc1e1e;
   }
   html .buttonContainer .green-stripe,
 body .buttonContainer .green-stripe {
@@ -114,17 +113,17 @@ body .flag {
   html .flag .blue-stripe,
 body .flag .blue-stripe {
     width: 33.33%;
-    background-color: rgb(16, 16, 173);
+    background-color: #1010ad;
   }
   html .flag .white-stripe,
 body .flag .white-stripe {
     width: 33.33%;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
   }
   html .flag .red-stripe,
 body .flag .red-stripe {
     width: 33.33%;
-    background-color: rgb(204, 30, 30);
+    background-color: #cc1e1e;
   }
   html .flag .green-stripe,
 body .flag .green-stripe {
@@ -171,15 +170,15 @@ body .buttonContainer #btn {
   }
   html .buttonContainer .blue-stripe,
 body .buttonContainer .blue-stripe {
-    border: solid 8px rgb(16, 16, 173);
+    border: solid 8px #1010ad;
   }
   html .buttonContainer .white-stripe,
 body .buttonContainer .white-stripe {
-    border: solid 8px rgb(255, 255, 255);
+    border: solid 8px #ffffff;
   }
   html .buttonContainer .red-stripe,
 body .buttonContainer .red-stripe {
-    border: solid 8px rgb(204, 30, 30);
+    border: solid 8px #cc1e1e;
   }
   html .buttonContainer .green-stripe,
 body .buttonContainer .green-stripe {
@@ -216,17 +215,17 @@ body .flag {
   html .flag .blue-stripe,
 body .flag .blue-stripe {
     width: 33.33%;
-    background-color: rgb(16, 16, 173);
+    background-color: #1010ad;
   }
   html .flag .white-stripe,
 body .flag .white-stripe {
     width: 33.33%;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
   }
   html .flag .red-stripe,
 body .flag .red-stripe {
     width: 33.33%;
-    background-color: rgb(204, 30, 30);
+    background-color: #cc1e1e;
   }
   html .flag .green-stripe,
 body .flag .green-stripe {
@@ -273,15 +272,15 @@ body .buttonContainer #btn {
   }
   html .buttonContainer .blue-stripe,
 body .buttonContainer .blue-stripe {
-    border: solid 8px rgb(16, 16, 173);
+    border: solid 8px #1010ad;
   }
   html .buttonContainer .white-stripe,
 body .buttonContainer .white-stripe {
-    border: solid 8px rgb(255, 255, 255);
+    border: solid 8px #ffffff;
   }
   html .buttonContainer .red-stripe,
 body .buttonContainer .red-stripe {
-    border: solid 8px rgb(204, 30, 30);
+    border: solid 8px #cc1e1e;
   }
   html .buttonContainer .green-stripe,
 body .buttonContainer .green-stripe {
@@ -318,17 +317,17 @@ body .flag {
   html .flag .blue-stripe,
 body .flag .blue-stripe {
     width: 33.33%;
-    background-color: rgb(16, 16, 173);
+    background-color: #1010ad;
   }
   html .flag .white-stripe,
 body .flag .white-stripe {
     width: 33.33%;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
   }
   html .flag .red-stripe,
 body .flag .red-stripe {
     width: 33.33%;
-    background-color: rgb(204, 30, 30);
+    background-color: #cc1e1e;
   }
   html .flag .green-stripe,
 body .flag .green-stripe {
@@ -375,15 +374,15 @@ body .buttonContainer #btn {
   }
   html .buttonContainer .blue-stripe,
 body .buttonContainer .blue-stripe {
-    border: solid 8px rgb(16, 16, 173);
+    border: solid 8px #1010ad;
   }
   html .buttonContainer .white-stripe,
 body .buttonContainer .white-stripe {
-    border: solid 8px rgb(255, 255, 255);
+    border: solid 8px #ffffff;
   }
   html .buttonContainer .red-stripe,
 body .buttonContainer .red-stripe {
-    border: solid 8px rgb(204, 30, 30);
+    border: solid 8px #cc1e1e;
   }
   html .buttonContainer .green-stripe,
 body .buttonContainer .green-stripe {
