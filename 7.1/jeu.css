@@ -12,7 +12,7 @@ body .flag {
   html .flag .blue-stripe,
 body .flag .blue-stripe {
     width: 33.33%;
-    background-color: #1010ad;
+    background-color: #002664;
   }
   html .flag .white-stripe,
 body .flag .white-stripe {
@@ -43,11 +43,6 @@ body .flag .black-stripe {
 body .flag .yellow-stripe {
     width: 33.33%;
     background-color: #fddb20;
-  }
-  html .flag .indigo-stripe,
-body .flag .indigo-stripe {
-    width: 33.33%;
-    background-color: #002664;
   }
   html .buttonContainer,
 body .buttonContainer {
@@ -63,7 +58,7 @@ body .buttonContainer #btn {
   }
   html .buttonContainer .blue-stripe,
 body .buttonContainer .blue-stripe {
-    border: solid 8px #1010ad;
+    border: solid 8px #002664;
   }
   html .buttonContainer .white-stripe,
 body .buttonContainer .white-stripe {
@@ -88,10 +83,6 @@ body .buttonContainer .black-stripe {
   html .buttonContainer .yellow-stripe,
 body .buttonContainer .yellow-stripe {
     border: solid 8px #fddb20;
-  }
-  html .buttonContainer .indigo-stripe,
-body .buttonContainer .indigo-stripe {
-    border: solid 8px #002664;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 899px) {
@@ -104,7 +95,7 @@ body .flag {
   html .flag .blue-stripe,
 body .flag .blue-stripe {
     width: 33.33%;
-    background-color: #1010ad;
+    background-color: #002664;
   }
   html .flag .white-stripe,
 body .flag .white-stripe {
@@ -156,7 +147,7 @@ body .buttonContainer #btn {
   }
   html .buttonContainer .blue-stripe,
 body .buttonContainer .blue-stripe {
-    border: solid 8px #1010ad;
+    border: solid 8px #002664;
   }
   html .buttonContainer .white-stripe,
 body .buttonContainer .white-stripe {
@@ -181,10 +172,6 @@ body .buttonContainer .black-stripe {
   html .buttonContainer .yellow-stripe,
 body .buttonContainer .yellow-stripe {
     border: solid 8px #fddb20;
-  }
-  html .buttonContainer .indigo-stripe,
-body .buttonContainer .indigo-stripe {
-    border: solid 8px #002664;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1199px) {
@@ -197,7 +184,7 @@ body .flag {
   html .flag .blue-stripe,
 body .flag .blue-stripe {
     width: 33.33%;
-    background-color: #1010ad;
+    background-color: #002664;
   }
   html .flag .white-stripe,
 body .flag .white-stripe {
@@ -249,7 +236,7 @@ body .buttonContainer #btn {
   }
   html .buttonContainer .blue-stripe,
 body .buttonContainer .blue-stripe {
-    border: solid 8px #1010ad;
+    border: solid 8px #002664;
   }
   html .buttonContainer .white-stripe,
 body .buttonContainer .white-stripe {
@@ -274,10 +261,6 @@ body .buttonContainer .black-stripe {
   html .buttonContainer .yellow-stripe,
 body .buttonContainer .yellow-stripe {
     border: solid 8px #fddb20;
-  }
-  html .buttonContainer .indigo-stripe,
-body .buttonContainer .indigo-stripe {
-    border: solid 8px #002664;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -290,7 +273,7 @@ body .flag {
   html .flag .blue-stripe,
 body .flag .blue-stripe {
     width: 33.33%;
-    background-color: #1010ad;
+    background-color: #002664;
   }
   html .flag .white-stripe,
 body .flag .white-stripe {
@@ -322,11 +305,6 @@ body .flag .yellow-stripe {
     width: 33.33%;
     background-color: #fddb20;
   }
-  html .flag .indigo-stripe,
-body .flag .indigo-stripe {
-    width: 33.33%;
-    background-color: #002664;
-  }
   html .buttonContainer,
 body .buttonContainer {
     display: flex;
@@ -342,7 +320,7 @@ body .buttonContainer #btn {
   }
   html .buttonContainer .blue-stripe,
 body .buttonContainer .blue-stripe {
-    border: solid 8px #1010ad;
+    border: solid 8px #002664;
   }
   html .buttonContainer .white-stripe,
 body .buttonContainer .white-stripe {
@@ -367,10 +345,6 @@ body .buttonContainer .black-stripe {
   html .buttonContainer .yellow-stripe,
 body .buttonContainer .yellow-stripe {
     border: solid 8px #fddb20;
-  }
-  html .buttonContainer .indigo-stripe,
-body .buttonContainer .indigo-stripe {
-    border: solid 8px #002664;
   }
 }
 
