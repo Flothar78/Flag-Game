@@ -6,8 +6,8 @@ body {
   html .flag,
 body .flag {
     display: flex;
-    height: 45%;
-    margin: 5rem 2%;
+    height: 40%;
+    margin: 9rem 1%;
   }
   html .flag .blue-stripe,
 body .flag .blue-stripe {
@@ -60,6 +60,13 @@ body .buttonContainer {
     justify-content: center;
     align-items: center;
   }
+  html .buttonContainer #btn,
+body .buttonContainer #btn {
+    background: linear-gradient(#13ee3b, #ff6600);
+    width: 60%;
+    padding: 3%;
+    border-radius: 20px;
+  }
   html .buttonContainer .blue-stripe,
 body .buttonContainer .blue-stripe {
     border: solid 8px rgb(16, 16, 173);
@@ -95,13 +102,6 @@ body .buttonContainer .indigo-stripe {
   html .buttonContainer .cobalt-stripe,
 body .buttonContainer .cobalt-stripe {
     border: solid 8px #012b7f;
-  }
-  html .buttonContainer #btn,
-body .buttonContainer #btn {
-    background: linear-gradient(#012b7f, #ff6600);
-    width: 40%;
-    padding: 3%;
-    border-radius: 20px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 899px) {
@@ -162,6 +162,13 @@ body .buttonContainer {
     justify-content: center;
     align-items: center;
   }
+  html .buttonContainer #btn,
+body .buttonContainer #btn {
+    background-color: #c9f5d4;
+    width: 40%;
+    padding: 3%;
+    border-radius: 20px;
+  }
   html .buttonContainer .blue-stripe,
 body .buttonContainer .blue-stripe {
     border: solid 8px rgb(16, 16, 173);
@@ -197,49 +204,6 @@ body .buttonContainer .indigo-stripe {
   html .buttonContainer .cobalt-stripe,
 body .buttonContainer .cobalt-stripe {
     border: solid 8px #012b7f;
-  }
-  html .buttonContainer #btn,
-body .buttonContainer #btn {
-    background-color: #c9f5d4;
-    width: 40%;
-    padding: 3%;
-    border-radius: 20px;
-  }
-  html .buttonContainer #btn .blue-stripe,
-body .buttonContainer #btn .blue-stripe {
-    background-color: rgb(16, 16, 173);
-  }
-  html .buttonContainer #btn .white-stripe,
-body .buttonContainer #btn .white-stripe {
-    background-color: rgb(255, 255, 255);
-  }
-  html .buttonContainer #btn .red-stripe,
-body .buttonContainer #btn .red-stripe {
-    background-color: rgb(204, 30, 30);
-  }
-  html .buttonContainer #btn .green-stripe,
-body .buttonContainer #btn .green-stripe {
-    background-color: #066e1c;
-  }
-  html .buttonContainer #btn .orange-stripe,
-body .buttonContainer #btn .orange-stripe {
-    background-color: #ff6600;
-  }
-  html .buttonContainer #btn .black-stripe,
-body .buttonContainer #btn .black-stripe {
-    background-color: #000000;
-  }
-  html .buttonContainer #btn .yellow-stripe,
-body .buttonContainer #btn .yellow-stripe {
-    background-color: #fddb20;
-  }
-  html .buttonContainer #btn .indigo-stripe,
-body .buttonContainer #btn .indigo-stripe {
-    background-color: #002664;
-  }
-  html .buttonContainer #btn .cobalt-stripe,
-body .buttonContainer #btn .cobalt-stripe {
-    background-color: #012b7f;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1199px) {
@@ -300,6 +264,13 @@ body .buttonContainer {
     justify-content: center;
     align-items: center;
   }
+  html .buttonContainer #btn,
+body .buttonContainer #btn {
+    background-color: #c9f5d4;
+    width: 40%;
+    padding: 3%;
+    border-radius: 20px;
+  }
   html .buttonContainer .blue-stripe,
 body .buttonContainer .blue-stripe {
     border: solid 8px rgb(16, 16, 173);
@@ -335,13 +306,6 @@ body .buttonContainer .indigo-stripe {
   html .buttonContainer .cobalt-stripe,
 body .buttonContainer .cobalt-stripe {
     border: solid 8px #012b7f;
-  }
-  html .buttonContainer #btn,
-body .buttonContainer #btn {
-    background-color: #c9f5d4;
-    width: 40%;
-    padding: 3%;
-    border-radius: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -402,6 +366,13 @@ body .buttonContainer {
     justify-content: center;
     align-items: center;
   }
+  html .buttonContainer #btn,
+body .buttonContainer #btn {
+    background-color: #c9f5d4;
+    width: 40%;
+    padding: 3%;
+    border-radius: 20px;
+  }
   html .buttonContainer .blue-stripe,
 body .buttonContainer .blue-stripe {
     border: solid 8px rgb(16, 16, 173);
@@ -437,13 +408,6 @@ body .buttonContainer .indigo-stripe {
   html .buttonContainer .cobalt-stripe,
 body .buttonContainer .cobalt-stripe {
     border: solid 8px #012b7f;
-  }
-  html .buttonContainer #btn,
-body .buttonContainer #btn {
-    background-color: #c9f5d4;
-    width: 40%;
-    padding: 3%;
-    border-radius: 20px;
   }
 }
 

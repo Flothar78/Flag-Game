@@ -31,6 +31,7 @@ Btn.addEventListener("click", function onClick() {
     const left = stripeLeft.className.slice(0, -7);
     const middle = stripeMiddle.className.slice(0, -7);
     const right = stripeRight.className.slice(0, -7);
+    //get colors to apply them to color classes of #btn//
     colors.push(left, middle, right);
   }
   refillArray();

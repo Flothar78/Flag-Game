@@ -4,8 +4,8 @@ body {
   @media screen and (max-width: 599px) {
     .flag {
       display: flex;
-      height: 45%;
-      margin: 5rem 2%;
+      height: 40%;
+      margin: 9rem 1%;
       .blue-stripe {
         width: 33.33%;
         background-color: rgb(16, 16, 173);
@@ -47,6 +47,12 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      #btn {
+        background: linear-gradient(#13ee3b, #ff6600);
+        width: 60%;
+        padding: 3%;
+        border-radius: 20px;
+      }
       .blue-stripe {
         border: solid 8px rgb(16, 16, 173);
       }
@@ -73,12 +79,6 @@ body {
       }
       .cobalt-stripe {
         border: solid 8px #012b7f;
-      }
-      #btn {
-        background: linear-gradient(#012b7f, #ff6600);
-        width: 40%;
-        padding: 3%;
-        border-radius: 20px;
       }
     }
   }
@@ -128,6 +128,12 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      #btn {
+        background-color: #c9f5d4;
+        width: 40%;
+        padding: 3%;
+        border-radius: 20px;
+      }
       .blue-stripe {
         border: solid 8px rgb(16, 16, 173);
       }
@@ -154,39 +160,6 @@ body {
       }
       .cobalt-stripe {
         border: solid 8px #012b7f;
-      }
-      #btn {
-        background-color: #c9f5d4;
-        width: 40%;
-        padding: 3%;
-        border-radius: 20px;
-        .blue-stripe {
-          background-color: rgb(16, 16, 173);
-        }
-        .white-stripe {
-          background-color: rgb(255, 255, 255);
-        }
-        .red-stripe {
-          background-color: rgb(204, 30, 30);
-        }
-        .green-stripe {
-          background-color: #066e1c;
-        }
-        .orange-stripe {
-          background-color: #ff6600;
-        }
-        .black-stripe {
-          background-color: #000000;
-        }
-        .yellow-stripe {
-          background-color: #fddb20;
-        }
-        .indigo-stripe {
-          background-color: #002664;
-        }
-        .cobalt-stripe {
-          background-color: #012b7f;
-        }
       }
     }
   }
@@ -236,6 +209,12 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      #btn {
+        background-color: #c9f5d4;
+        width: 40%;
+        padding: 3%;
+        border-radius: 20px;
+      }
       .blue-stripe {
         border: solid 8px rgb(16, 16, 173);
       }
@@ -262,12 +241,6 @@ body {
       }
       .cobalt-stripe {
         border: solid 8px #012b7f;
-      }
-      #btn {
-        background-color: #c9f5d4;
-        width: 40%;
-        padding: 3%;
-        border-radius: 20px;
       }
     }
   }
@@ -317,6 +290,12 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      #btn {
+        background-color: #c9f5d4;
+        width: 40%;
+        padding: 3%;
+        border-radius: 20px;
+      }
       .blue-stripe {
         border: solid 8px rgb(16, 16, 173);
       }
@@ -343,12 +322,6 @@ body {
       }
       .cobalt-stripe {
         border: solid 8px #012b7f;
-      }
-      #btn {
-        background-color: #c9f5d4;
-        width: 40%;
-        padding: 3%;
-        border-radius: 20px;
       }
     }
   }
