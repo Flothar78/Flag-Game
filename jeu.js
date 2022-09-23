@@ -32,7 +32,7 @@ Btn.addEventListener("click", function onClick() {
       let middle = stripeMiddle.className.slice(0, -7);
       let right = stripeRight.className.slice(0, -7);
       Btn.style.background =
-        "linear-gradient(84deg, " + left + ", " + middle + ", " + right + ")";
+        "linear-gradient(77deg, " + left + ", " + middle + ", " + right + ")";
     }
     // matching colors to a country
     if (

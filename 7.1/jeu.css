@@ -1,351 +1,190 @@
 html,
 body {
   height: 100%;
-}
-@media screen and (max-width: 599px) {
-  html .flag,
-body .flag {
-    display: flex;
-    height: 40%;
-    margin: 9rem 1%;
-  }
-  html .flag .blue-stripe,
-body .flag .blue-stripe {
-    width: 33.33%;
-    background-color: #002664;
-  }
-  html .flag .white-stripe,
-body .flag .white-stripe {
-    width: 33.33%;
-    background-color: #ffffff;
-  }
-  html .flag .red-stripe,
-body .flag .red-stripe {
-    width: 33.33%;
-    background-color: #cc1e1e;
-  }
-  html .flag .green-stripe,
-body .flag .green-stripe {
-    width: 33.33%;
-    background-color: #066e1c;
-  }
-  html .flag .orange-stripe,
-body .flag .orange-stripe {
-    width: 33.33%;
-    background-color: #ff6600;
-  }
-  html .flag .black-stripe,
-body .flag .black-stripe {
-    width: 33.33%;
-    background-color: #000000;
-  }
-  html .flag .yellow-stripe,
-body .flag .yellow-stripe {
-    width: 33.33%;
-    background-color: #fddb20;
-  }
-  html .buttonContainer,
-body .buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  html .buttonContainer #btn,
-body .buttonContainer #btn {
-    width: 60%;
-    padding: 3%;
-    border-radius: 20px;
-  }
-  html .buttonContainer .blue-stripe,
-body .buttonContainer .blue-stripe {
-    border: solid 8px #002664;
-  }
-  html .buttonContainer .white-stripe,
-body .buttonContainer .white-stripe {
-    border: solid 8px #ffffff;
-  }
-  html .buttonContainer .red-stripe,
-body .buttonContainer .red-stripe {
-    border: solid 8px #cc1e1e;
-  }
-  html .buttonContainer .green-stripe,
-body .buttonContainer .green-stripe {
-    border: solid 8px #066e1c;
-  }
-  html .buttonContainer .orange-stripe,
-body .buttonContainer .orange-stripe {
-    border: solid 8px #ff6600;
-  }
-  html .buttonContainer .black-stripe,
-body .buttonContainer .black-stripe {
-    border: solid 8px #000000;
-  }
-  html .buttonContainer .yellow-stripe,
-body .buttonContainer .yellow-stripe {
-    border: solid 8px #fddb20;
-  }
-}
-@media screen and (min-width: 600px) and (max-width: 899px) {
-  html .flag,
-body .flag {
-    display: flex;
-    height: 57%;
-    margin: 5rem 2%;
-  }
-  html .flag .blue-stripe,
-body .flag .blue-stripe {
-    width: 33.33%;
-    background-color: #002664;
-  }
-  html .flag .white-stripe,
-body .flag .white-stripe {
-    width: 33.33%;
-    background-color: #ffffff;
-  }
-  html .flag .red-stripe,
-body .flag .red-stripe {
-    width: 33.33%;
-    background-color: #cc1e1e;
-  }
-  html .flag .green-stripe,
-body .flag .green-stripe {
-    width: 33.33%;
-    background-color: #066e1c;
-  }
-  html .flag .orange-stripe,
-body .flag .orange-stripe {
-    width: 33.33%;
-    background-color: #ff6600;
-  }
-  html .flag .black-stripe,
-body .flag .black-stripe {
-    width: 33.33%;
-    background-color: #000000;
-  }
-  html .flag .yellow-stripe,
-body .flag .yellow-stripe {
-    width: 33.33%;
-    background-color: #fddb20;
-  }
-  html .flag .indigo-stripe,
-body .flag .indigo-stripe {
-    width: 33.33%;
-    background-color: #002664;
-  }
-  html .buttonContainer,
-body .buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  html .buttonContainer #btn,
-body .buttonContainer #btn {
-    background-color: #c9f5d4;
-    width: 40%;
-    padding: 3%;
-    border-radius: 20px;
-  }
-  html .buttonContainer .blue-stripe,
-body .buttonContainer .blue-stripe {
-    border: solid 8px #002664;
-  }
-  html .buttonContainer .white-stripe,
-body .buttonContainer .white-stripe {
-    border: solid 8px #ffffff;
-  }
-  html .buttonContainer .red-stripe,
-body .buttonContainer .red-stripe {
-    border: solid 8px #cc1e1e;
-  }
-  html .buttonContainer .green-stripe,
-body .buttonContainer .green-stripe {
-    border: solid 8px #066e1c;
-  }
-  html .buttonContainer .orange-stripe,
-body .buttonContainer .orange-stripe {
-    border: solid 8px #ff6600;
-  }
-  html .buttonContainer .black-stripe,
-body .buttonContainer .black-stripe {
-    border: solid 8px #000000;
-  }
-  html .buttonContainer .yellow-stripe,
-body .buttonContainer .yellow-stripe {
-    border: solid 8px #fddb20;
-  }
-}
-@media screen and (min-width: 900px) and (max-width: 1199px) {
-  html .flag,
-body .flag {
-    display: flex;
-    height: 65%;
-    margin: 3rem 8rem;
-  }
-  html .flag .blue-stripe,
-body .flag .blue-stripe {
-    width: 33.33%;
-    background-color: #002664;
-  }
-  html .flag .white-stripe,
-body .flag .white-stripe {
-    width: 33.33%;
-    background-color: #ffffff;
-  }
-  html .flag .red-stripe,
-body .flag .red-stripe {
-    width: 33.33%;
-    background-color: #cc1e1e;
-  }
-  html .flag .green-stripe,
-body .flag .green-stripe {
-    width: 33.33%;
-    background-color: #066e1c;
-  }
-  html .flag .orange-stripe,
-body .flag .orange-stripe {
-    width: 33.33%;
-    background-color: #ff6600;
-  }
-  html .flag .black-stripe,
-body .flag .black-stripe {
-    width: 33.33%;
-    background-color: #000000;
-  }
-  html .flag .yellow-stripe,
-body .flag .yellow-stripe {
-    width: 33.33%;
-    background-color: #fddb20;
-  }
-  html .flag .indigo-stripe,
-body .flag .indigo-stripe {
-    width: 33.33%;
-    background-color: #002664;
-  }
-  html .buttonContainer,
-body .buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  html .buttonContainer #btn,
-body .buttonContainer #btn {
-    background-color: #c9f5d4;
-    width: 40%;
-    padding: 3%;
-    border-radius: 20px;
-  }
-  html .buttonContainer .blue-stripe,
-body .buttonContainer .blue-stripe {
-    border: solid 8px #002664;
-  }
-  html .buttonContainer .white-stripe,
-body .buttonContainer .white-stripe {
-    border: solid 8px #ffffff;
-  }
-  html .buttonContainer .red-stripe,
-body .buttonContainer .red-stripe {
-    border: solid 8px #cc1e1e;
-  }
-  html .buttonContainer .green-stripe,
-body .buttonContainer .green-stripe {
-    border: solid 8px #066e1c;
-  }
-  html .buttonContainer .orange-stripe,
-body .buttonContainer .orange-stripe {
-    border: solid 8px #ff6600;
-  }
-  html .buttonContainer .black-stripe,
-body .buttonContainer .black-stripe {
-    border: solid 8px #000000;
-  }
-  html .buttonContainer .yellow-stripe,
-body .buttonContainer .yellow-stripe {
-    border: solid 8px #fddb20;
-  }
-}
-@media screen and (min-width: 1200px) {
-  html .flag,
-body .flag {
-    display: flex;
-    height: 70%;
-    margin: 3rem 8rem;
-  }
-  html .flag .blue-stripe,
-body .flag .blue-stripe {
-    width: 33.33%;
-    background-color: #002664;
-  }
-  html .flag .white-stripe,
-body .flag .white-stripe {
-    width: 33.33%;
-    background-color: #ffffff;
-  }
-  html .flag .red-stripe,
-body .flag .red-stripe {
-    width: 33.33%;
-    background-color: #cc1e1e;
-  }
-  html .flag .green-stripe,
-body .flag .green-stripe {
-    width: 33.33%;
-    background-color: #066e1c;
-  }
-  html .flag .orange-stripe,
-body .flag .orange-stripe {
-    width: 33.33%;
-    background-color: #ff6600;
-  }
-  html .flag .black-stripe,
-body .flag .black-stripe {
-    width: 33.33%;
-    background-color: #000000;
-  }
-  html .flag .yellow-stripe,
-body .flag .yellow-stripe {
-    width: 33.33%;
-    background-color: #fddb20;
-  }
-  html .buttonContainer,
-body .buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  html .buttonContainer #btn,
-body .buttonContainer #btn {
-    background-color: #c9f5d4;
-    width: 40%;
-    padding: 3%;
-    border-radius: 20px;
-  }
-  html .buttonContainer .blue-stripe,
-body .buttonContainer .blue-stripe {
-    border: solid 8px #002664;
-  }
-  html .buttonContainer .white-stripe,
-body .buttonContainer .white-stripe {
-    border: solid 8px #ffffff;
-  }
-  html .buttonContainer .red-stripe,
-body .buttonContainer .red-stripe {
-    border: solid 8px #cc1e1e;
-  }
-  html .buttonContainer .green-stripe,
-body .buttonContainer .green-stripe {
-    border: solid 8px #066e1c;
-  }
-  html .buttonContainer .orange-stripe,
-body .buttonContainer .orange-stripe {
-    border: solid 8px #ff6600;
-  }
-  html .buttonContainer .black-stripe,
-body .buttonContainer .black-stripe {
-    border: solid 8px #000000;
-  }
-  html .buttonContainer .yellow-stripe,
-body .buttonContainer .yellow-stripe {
-    border: solid 8px #fddb20;
-  }
-}
+  background: linear-gradient(0.3turn, #002664, #ffffff, #cc1e1e, #066e1c, #ff6600, #000000, #fddb20); }
+  @media screen and (max-width: 599px) {
+    html .flag,
+    body .flag {
+      display: flex;
+      height: 40%;
+      margin: 9rem 1%; }
+      html .flag .blue-stripe,
+      body .flag .blue-stripe {
+        width: 33.33%;
+        background-color: #002664; }
+      html .flag .white-stripe,
+      body .flag .white-stripe {
+        width: 33.33%;
+        background-color: #ffffff; }
+      html .flag .red-stripe,
+      body .flag .red-stripe {
+        width: 33.33%;
+        background-color: #cc1e1e; }
+      html .flag .green-stripe,
+      body .flag .green-stripe {
+        width: 33.33%;
+        background-color: #066e1c; }
+      html .flag .orange-stripe,
+      body .flag .orange-stripe {
+        width: 33.33%;
+        background-color: #ff6600; }
+      html .flag .black-stripe,
+      body .flag .black-stripe {
+        width: 33.33%;
+        background-color: #000000; }
+      html .flag .yellow-stripe,
+      body .flag .yellow-stripe {
+        width: 33.33%;
+        background-color: #fddb20; }
+    html .buttonContainer,
+    body .buttonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      html .buttonContainer #btn,
+      body .buttonContainer #btn {
+        border: 0px;
+        width: 60%;
+        padding: 3%;
+        border-radius: 20px; } }
+  @media screen and (min-width: 600px) and (max-width: 899px) {
+    html .flag,
+    body .flag {
+      display: flex;
+      height: 57%;
+      margin: 5rem 2%; }
+      html .flag .blue-stripe,
+      body .flag .blue-stripe {
+        width: 33.33%;
+        background-color: #002664; }
+      html .flag .white-stripe,
+      body .flag .white-stripe {
+        width: 33.33%;
+        background-color: #ffffff; }
+      html .flag .red-stripe,
+      body .flag .red-stripe {
+        width: 33.33%;
+        background-color: #cc1e1e; }
+      html .flag .green-stripe,
+      body .flag .green-stripe {
+        width: 33.33%;
+        background-color: #066e1c; }
+      html .flag .orange-stripe,
+      body .flag .orange-stripe {
+        width: 33.33%;
+        background-color: #ff6600; }
+      html .flag .black-stripe,
+      body .flag .black-stripe {
+        width: 33.33%;
+        background-color: #000000; }
+      html .flag .yellow-stripe,
+      body .flag .yellow-stripe {
+        width: 33.33%;
+        background-color: #fddb20; }
+    html .buttonContainer,
+    body .buttonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      html .buttonContainer #btn,
+      body .buttonContainer #btn {
+        border: 0px;
+        width: 40%;
+        padding: 3%;
+        border-radius: 20px; } }
+  @media screen and (min-width: 900px) and (max-width: 1199px) {
+    html .flag,
+    body .flag {
+      display: flex;
+      height: 65%;
+      margin: 3rem 8rem; }
+      html .flag .blue-stripe,
+      body .flag .blue-stripe {
+        width: 33.33%;
+        background-color: #002664; }
+      html .flag .white-stripe,
+      body .flag .white-stripe {
+        width: 33.33%;
+        background-color: #ffffff; }
+      html .flag .red-stripe,
+      body .flag .red-stripe {
+        width: 33.33%;
+        background-color: #cc1e1e; }
+      html .flag .green-stripe,
+      body .flag .green-stripe {
+        width: 33.33%;
+        background-color: #066e1c; }
+      html .flag .orange-stripe,
+      body .flag .orange-stripe {
+        width: 33.33%;
+        background-color: #ff6600; }
+      html .flag .black-stripe,
+      body .flag .black-stripe {
+        width: 33.33%;
+        background-color: #000000; }
+      html .flag .yellow-stripe,
+      body .flag .yellow-stripe {
+        width: 33.33%;
+        background-color: #fddb20; }
+      html .flag .indigo-stripe,
+      body .flag .indigo-stripe {
+        width: 33.33%;
+        background-color: #002664; }
+    html .buttonContainer,
+    body .buttonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      html .buttonContainer #btn,
+      body .buttonContainer #btn {
+        border: 0px;
+        width: 40%;
+        padding: 3%;
+        border-radius: 20px; } }
+  @media screen and (min-width: 1200px) {
+    html .flag,
+    body .flag {
+      display: flex;
+      height: 70%;
+      margin: 3rem 8rem; }
+      html .flag .blue-stripe,
+      body .flag .blue-stripe {
+        width: 33.33%;
+        background-color: #002664; }
+      html .flag .white-stripe,
+      body .flag .white-stripe {
+        width: 33.33%;
+        background-color: #ffffff; }
+      html .flag .red-stripe,
+      body .flag .red-stripe {
+        width: 33.33%;
+        background-color: #cc1e1e; }
+      html .flag .green-stripe,
+      body .flag .green-stripe {
+        width: 33.33%;
+        background-color: #066e1c; }
+      html .flag .orange-stripe,
+      body .flag .orange-stripe {
+        width: 33.33%;
+        background-color: #ff6600; }
+      html .flag .black-stripe,
+      body .flag .black-stripe {
+        width: 33.33%;
+        background-color: #000000; }
+      html .flag .yellow-stripe,
+      body .flag .yellow-stripe {
+        width: 33.33%;
+        background-color: #fddb20; }
+    html .buttonContainer,
+    body .buttonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      html .buttonContainer #btn,
+      body .buttonContainer #btn {
+        border: 0px;
+        width: 40%;
+        padding: 3%;
+        border-radius: 20px; } }
 
 /*# sourceMappingURL=jeu.css.map */

@@ -1,6 +1,14 @@
 html,
 body {
+  $blue:#002664;
+  $white:#ffffff;
+  $red:#cc1e1e;
+  $green:#066e1c;
+  $orange:#ff6600;
+  $black:#000000;
+  $yellow:#fddb20;
   height: 100%;
+  background: linear-gradient(0.3turn, $blue, $white, $red, $green, $orange, $black, $yellow);
   @media screen and (max-width: 599px) {
     .flag {
       display: flex;
@@ -8,31 +16,31 @@ body {
       margin: 9rem 1%;
       .blue-stripe {
         width: 33.33%;
-        background-color: #002664;
+        background-color: $blue;
       }
       .white-stripe {
         width: 33.33%;
-        background-color: #ffffff;
+        background-color: $white;
       }
       .red-stripe {
         width: 33.33%;
-        background-color: #cc1e1e;
+        background-color: $red;
       }
       .green-stripe {
         width: 33.33%;
-        background-color: #066e1c;
+        background-color: $green;
       }
       .orange-stripe {
         width: 33.33%;
-        background-color: #ff6600;
+        background-color: $orange;
       }
       .black-stripe {
         width: 33.33%;
-        background-color: #000000;
+        background-color: $black;
       }
       .yellow-stripe {
         width: 33.33%;
-        background-color: #fddb20;
+        background-color: $yellow;
       }
     }
     .buttonContainer {
@@ -40,30 +48,10 @@ body {
       justify-content: center;
       align-items: center;
       #btn {
+        border: 0px;
         width: 60%;
         padding: 3%;
         border-radius: 20px;
-      }
-      .blue-stripe {
-        border: solid 8px #002664;
-      }
-      .white-stripe {
-        border: solid 8px #ffffff;
-      }
-      .red-stripe {
-        border: solid 8px #cc1e1e;
-      }
-      .green-stripe {
-        border: solid 8px #066e1c;
-      }
-      .orange-stripe {
-        border: solid 8px #ff6600;
-      }
-      .black-stripe {
-        border: solid 8px #000000;
-      }
-      .yellow-stripe {
-        border: solid 8px #fddb20;
       }
     }
   }
@@ -74,35 +62,31 @@ body {
       margin: 5rem 2%;
       .blue-stripe {
         width: 33.33%;
-        background-color: #002664;
+        background-color: $blue;
       }
       .white-stripe {
         width: 33.33%;
-        background-color: #ffffff;
+        background-color: $white;
       }
       .red-stripe {
         width: 33.33%;
-        background-color: #cc1e1e;
+        background-color: $red;
       }
       .green-stripe {
         width: 33.33%;
-        background-color: #066e1c;
+        background-color: $green;
       }
       .orange-stripe {
         width: 33.33%;
-        background-color: #ff6600;
+        background-color: $orange;
       }
       .black-stripe {
         width: 33.33%;
-        background-color: #000000;
+        background-color: $black;
       }
       .yellow-stripe {
         width: 33.33%;
-        background-color: #fddb20;
-      }
-      .indigo-stripe {
-        width: 33.33%;
-        background-color: #002664;
+        background-color: $yellow;
       }
     }
     .buttonContainer {
@@ -110,31 +94,10 @@ body {
       justify-content: center;
       align-items: center;
       #btn {
-        background-color: #c9f5d4;
+        border: 0px;
         width: 40%;
         padding: 3%;
         border-radius: 20px;
-      }
-      .blue-stripe {
-        border: solid 8px #002664;
-      }
-      .white-stripe {
-        border: solid 8px #ffffff;
-      }
-      .red-stripe {
-        border: solid 8px #cc1e1e;
-      }
-      .green-stripe {
-        border: solid 8px #066e1c;
-      }
-      .orange-stripe {
-        border: solid 8px #ff6600;
-      }
-      .black-stripe {
-        border: solid 8px #000000;
-      }
-      .yellow-stripe {
-        border: solid 8px #fddb20;
       }
     }
   }
@@ -145,35 +108,35 @@ body {
       margin: 3rem 8rem;
       .blue-stripe {
         width: 33.33%;
-        background-color: #002664;
+        background-color: $blue;
       }
       .white-stripe {
         width: 33.33%;
-        background-color: #ffffff;
+        background-color: $white;
       }
       .red-stripe {
         width: 33.33%;
-        background-color: #cc1e1e;
+        background-color: $red;
       }
       .green-stripe {
         width: 33.33%;
-        background-color: #066e1c;
+        background-color: $green;
       }
       .orange-stripe {
         width: 33.33%;
-        background-color: #ff6600;
+        background-color: $orange;
       }
       .black-stripe {
         width: 33.33%;
-        background-color: #000000;
+        background-color: $black;
       }
       .yellow-stripe {
         width: 33.33%;
-        background-color: #fddb20;
+        background-color: $yellow;
       }
       .indigo-stripe {
         width: 33.33%;
-        background-color: #002664;
+        background-color: $blue;
       }
     }
     .buttonContainer {
@@ -181,32 +144,12 @@ body {
       justify-content: center;
       align-items: center;
       #btn {
-        background-color: #c9f5d4;
+        border: 0px;
         width: 40%;
         padding: 3%;
         border-radius: 20px;
       }
-      .blue-stripe {
-        border: solid 8px #002664;
-      }
-      .white-stripe {
-        border: solid 8px #ffffff;
-      }
-      .red-stripe {
-        border: solid 8px #cc1e1e;
-      }
-      .green-stripe {
-        border: solid 8px #066e1c;
-      }
-      .orange-stripe {
-        border: solid 8px #ff6600;
-      }
-      .black-stripe {
-        border: solid 8px #000000;
-      }
-      .yellow-stripe {
-        border: solid 8px #fddb20;
-      }
+      
     }
   }
   @media screen and (min-width: 1200px) {
@@ -216,31 +159,31 @@ body {
       margin: 3rem 8rem;
       .blue-stripe {
         width: 33.33%;
-        background-color: #002664;
+        background-color: $blue;
       }
       .white-stripe {
         width: 33.33%;
-        background-color: #ffffff;
+        background-color: $white;
       }
       .red-stripe {
         width: 33.33%;
-        background-color: #cc1e1e;
+        background-color: $red;
       }
       .green-stripe {
         width: 33.33%;
-        background-color: #066e1c;
+        background-color: $green;
       }
       .orange-stripe {
         width: 33.33%;
-        background-color: #ff6600;
+        background-color: $orange;
       }
       .black-stripe {
         width: 33.33%;
-        background-color: #000000;
+        background-color: $black;
       }
       .yellow-stripe {
         width: 33.33%;
-        background-color: #fddb20;
+        background-color: $yellow;
       }
     }
     .buttonContainer {
@@ -248,31 +191,10 @@ body {
       justify-content: center;
       align-items: center;
       #btn {
-        background-color: #c9f5d4;
+        border: 0px;
         width: 40%;
         padding: 3%;
         border-radius: 20px;
-      }
-      .blue-stripe {
-        border: solid 8px #002664;
-      }
-      .white-stripe {
-        border: solid 8px #ffffff;
-      }
-      .red-stripe {
-        border: solid 8px #cc1e1e;
-      }
-      .green-stripe {
-        border: solid 8px #066e1c;
-      }
-      .orange-stripe {
-        border: solid 8px #ff6600;
-      }
-      .black-stripe {
-        border: solid 8px #000000;
-      }
-      .yellow-stripe {
-        border: solid 8px #fddb20;
       }
     }
   }
