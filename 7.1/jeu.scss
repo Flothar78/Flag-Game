@@ -1,19 +1,29 @@
 html,
 body {
-  $blue:#002664;
-  $white:#ffffff;
-  $red:#cc1e1e;
-  $green:#066e1c;
-  $orange:#ff6600;
-  $black:#000000;
-  $yellow:#fddb20;
+  $blue: #002664;
+  $white: #ffffff;
+  $red: #cc1e1e;
+  $green: #066e1c;
+  $orange: #ff6600;
+  $black: #000000;
+  $yellow: #fddb20;
   height: 100%;
-  background: linear-gradient(0.3turn, $blue, $white, $red, $green, $orange, $black, $yellow);
+  margin-top: 0;
+  background: linear-gradient(
+    0.3turn,
+    $blue,
+    $white,
+    $red,
+    $green,
+    $orange,
+    $black,
+    $yellow
+  );
   @media screen and (max-width: 599px) {
     .flag {
+      padding: 3rem;
       display: flex;
       height: 40%;
-      margin: 9rem 1%;
       .blue-stripe {
         width: 33.33%;
         background-color: $blue;
@@ -57,9 +67,9 @@ body {
   }
   @media screen and (min-width: 600px) and (max-width: 899px) {
     .flag {
+      padding: 3rem;
       display: flex;
       height: 57%;
-      margin: 5rem 2%;
       .blue-stripe {
         width: 33.33%;
         background-color: $blue;
@@ -103,9 +113,9 @@ body {
   }
   @media screen and (min-width: 900px) and (max-width: 1199px) {
     .flag {
+      padding: 3rem;
       display: flex;
       height: 65%;
-      margin: 3rem 8rem;
       .blue-stripe {
         width: 33.33%;
         background-color: $blue;
@@ -149,14 +159,13 @@ body {
         padding: 3%;
         border-radius: 20px;
       }
-      
     }
   }
   @media screen and (min-width: 1200px) {
     .flag {
+      padding: 3rem;
       display: flex;
       height: 70%;
-      margin: 3rem 8rem;
       .blue-stripe {
         width: 33.33%;
         background-color: $blue;
