@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  margin-top: 0;
+  margin: 0;
   background: linear-gradient(0.3turn, #002664, #ffffff, #cc1e1e, #066e1c, #ff6600, #000000, #fddb20); }
   @media screen and (max-width: 599px) {
     html .flag,
