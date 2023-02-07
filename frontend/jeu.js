@@ -60,48 +60,48 @@ function matchColorsAndCountry() {
     rightStripe.className == "red"
   ) {
     alert("Pour voir l'ITALIE clique sur OK");
-    setGradientColorsToButton(177);
+    setGradientColorsToButton(225);
   } else if (
     leftStripe.className == "orange" &&
     middleStripe.className == "white" &&
     rightStripe.className == "green"
   ) {
     alert("Pour voir la CÔTE-D'IVOIRE clique sur OK");
-    setGradientColorsToButton(45);
+    setGradientColorsToButton(100);
   } else if (
     leftStripe.className == "green" &&
     middleStripe.className == "white" &&
     rightStripe.className == "orange"
   ) {
     alert("Pour voir l'IRLANDE clique sur OK");
-    setGradientColorsToButton(100);
+    setGradientColorsToButton(45);
   } else if (
     leftStripe.className == "black" &&
     middleStripe.className == "yellow" &&
     rightStripe.className == "red"
   ) {
     alert("Pour voir la BELGIQUE clique sur OK");
-    setGradientColorsToButton(2);
+    setGradientColorsToButton(125);
   } else if (
     leftStripe.className == "red" &&
     middleStripe.className == "yellow" &&
     rightStripe.className == "green"
   ) {
     alert("Pour voir la GUINEE clique sur OK");
-    setGradientColorsToButton(125);
+    setGradientColorsToButton(115);
   } else if (
     leftStripe.className == "green" &&
     middleStripe.className == "yellow" &&
     rightStripe.className == "red"
   ) {
     alert("Pour voir le MALI clique sur OK");
-    setGradientColorsToButton(103);
+    setGradientColorsToButton(105);
   } else if (
     leftStripe.className == "blue" &&
     middleStripe.className == "yellow" &&
     rightStripe.className == "red"
   ) {
     alert("Pour voir la ROUMANIE clique sur OK");
-    setGradientColorsToButton(56);
+    setGradientColorsToButton(15);
   }
 }

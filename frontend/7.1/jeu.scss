@@ -10,7 +10,7 @@ body {
   height: 100%;
   margin: 0;
   background: linear-gradient(
-    0.335turn,
+    0.3turn,
     $blue,
     $white,
     $red,
@@ -19,7 +19,18 @@ body {
     $black,
     $yellow
   );
-  @media screen and (max-width: 599px) {
+
+  :export {
+    blue: $blue;
+    white: $white;
+    red: $red;
+    green: $green;
+    orange: $orange;
+    black: $black;
+    yellow: $yellow;
+  }
+
+  @media screen and (max-width: 699px) {
     .flag {
       padding: 3rem;
       display: flex;
@@ -65,7 +76,7 @@ body {
       }
     }
   }
-  @media screen and (min-width: 600px) and (max-width: 899px) {
+  @media screen and (min-width: 700px) and (max-width: 899px) {
     .flag {
       padding: 3rem;
       display: flex;
@@ -100,12 +111,13 @@ body {
       }
     }
     .buttonContainer {
+      margin-top: 9vw;
       display: flex;
       justify-content: center;
       align-items: center;
       #buttonToChangeColors {
         border: 0px;
-        width: 40%;
+        width: 40vw;
         padding: 3%;
         border-radius: 20px;
       }
@@ -151,6 +163,7 @@ body {
     }
     .buttonContainer {
       display: flex;
+      margin-top: 9vw;
       justify-content: center;
       align-items: center;
       #buttonToChangeColors {
@@ -165,7 +178,7 @@ body {
     .flag {
       padding: 3rem;
       display: flex;
-      height: 70%;
+      height: 40vw;
       .blue {
         width: 33.33%;
         background-color: $blue;
@@ -196,6 +209,7 @@ body {
       }
     }
     .buttonContainer {
+      margin-top: 7vw;
       display: flex;
       justify-content: center;
       align-items: center;
