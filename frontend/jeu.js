@@ -1,96 +1,102 @@
-const colors = ["blue", "white", "red", "green", "orange", "black", "yellow"];
+const availableColors = [
+  "blue",
+  "white",
+  "red",
+  "green",
+  "orange",
+  "black",
+  "yellow",
+];
 
-const Btn = document.getElementById("btn");
-const stripeLeft = document.getElementById("stripeLeft");
-const stripeMiddle = document.getElementById("stripeMiddle");
-const stripeRight = document.getElementById("stripeRight");
+const buttonToGetRandomColors = document.getElementById("buttonToChangeColors");
+const leftStripe = document.getElementById("left-stripe");
+const middleStripe = document.getElementById("middle-stripe");
+const rigthStripe = document.getElementById("right-stripe");
 
-Btn.addEventListener("click", function onClick() {
-  function getRandomColors() {
-    let randomColor = colors[Math.floor(Math.random() * colors.length)];
-    let index = colors.indexOf(randomColor);
-    colors.splice(index, 1);
-    return randomColor;
-  }
-  function giveColors() {
-    stripeLeft.className = getRandomColors() + "-stripe";
-    stripeMiddle.className = getRandomColors() + "-stripe";
-    stripeRight.className = getRandomColors() + "-stripe";
-  }
-  giveColors();
-  function refillArray() {
-    let left = stripeLeft.className.slice(0, -7);
-    let middle = stripeMiddle.className.slice(0, -7);
-    let right = stripeRight.className.slice(0, -7);
-    colors.push(left, middle, right);
-  }
+buttonToGetRandomColors.addEventListener("click", function onClick() {
+  giveColorsToStripes();
   refillArray();
-  function resultOfColors() {
-    // Set flag colors to button //
-    function setGradientColors(deg) {
-      let left = stripeLeft.className.slice(0, -7);
-      let middle = stripeMiddle.className.slice(0, -7);
-      let right = stripeRight.className.slice(0, -7);
-      Btn.style.background = `linear-gradient(${deg}deg, ${left}, ${middle}, ${right})`;
-    }
-    // matching colors to a country
-    if (
-      stripeLeft.className == "blue-stripe" &&
-      stripeMiddle.className == "white-stripe" &&
-      stripeRight.className == "red-stripe"
-    ) {
-      alert("Pour voir la FRANCE clique sur OK");
-      setGradientColors(77);
-    } else if (
-      stripeLeft.className == "green-stripe" &&
-      stripeMiddle.className == "white-stripe" &&
-      stripeRight.className == "red-stripe"
-    ) {
-      alert("Pour voir l'ITALIE clique sur OK");
-      setGradientColors(177);
-    } else if (
-      stripeLeft.className == "orange-stripe" &&
-      stripeMiddle.className == "white-stripe" &&
-      stripeRight.className == "green-stripe"
-    ) {
-      alert("Pour voir la CÔTE-D'IVOIRE clique sur OK");
-      setGradientColors(45);
-    } else if (
-      stripeLeft.className == "green-stripe" &&
-      stripeMiddle.className == "white-stripe" &&
-      stripeRight.className == "orange-stripe"
-    ) {
-      alert("Pour voir l'IRLANDE clique sur OK");
-      setGradientColors(100);
-    } else if (
-      stripeLeft.className == "black-stripe" &&
-      stripeMiddle.className == "yellow-stripe" &&
-      stripeRight.className == "red-stripe"
-    ) {
-      alert("Pour voir la BELGIQUE clique sur OK");
-      setGradientColors(2);
-    } else if (
-      stripeLeft.className == "red-stripe" &&
-      stripeMiddle.className == "yellow-stripe" &&
-      stripeRight.className == "green-stripe"
-    ) {
-      alert("Pour voir la GUINEE clique sur OK");
-      setGradientColors(125);
-    } else if (
-      stripeLeft.className == "green-stripe" &&
-      stripeMiddle.className == "yellow-stripe" &&
-      stripeRight.className == "red-stripe"
-    ) {
-      alert("Pour voir le MALI clique sur OK");
-      setGradientColors(103);
-    } else if (
-      stripeLeft.className == "blue-stripe" &&
-      stripeMiddle.className == "yellow-stripe" &&
-      stripeRight.className == "red-stripe"
-    ) {
-      alert("Pour voir la ROUMANIE clique sur OK");
-      setGradientColors(56);
-    }
-  }
   resultOfColors();
 });
+function getRandomColors() {
+  const randomColor =
+    availableColors[Math.floor(Math.random() * availableColors.length)];
+  const indexOfRandomColor = availableColors.indexOf(randomColor);
+  availableColors.splice(indexOfRandomColor, 1);
+  return randomColor;
+}
+function giveColorsToStripes() {
+  leftStripe.className = getRandomColors();
+  middleStripe.className = getRandomColors();
+  rigthStripe.className = getRandomColors();
+}
+function refillArray() {
+  availableColors.push(
+    leftStripe.className,
+    middleStripe.className,
+    rigthStripe.className
+  );
+}
+function setGradientColorsToButton(deg) {
+  buttonToGetRandomColors.style.background = `linear-gradient(${deg}deg, ${leftStripe.className}, ${middleStripe.className}, ${rigthStripe.className})`;
+}
+function resultOfColors() {
+  // matching colors to a country
+  if (
+    leftStripe.className == "blue" &&
+    middleStripe.className == "white" &&
+    rigthStripe.className == "red"
+  ) {
+    alert("Pour voir la FRANCE clique sur OK");
+    setGradientColorsToButton(77);
+  } else if (
+    leftStripe.className == "green" &&
+    middleStripe.className == "white" &&
+    rigthStripe.className == "red"
+  ) {
+    alert("Pour voir l'ITALIE clique sur OK");
+    setGradientColorsToButton(177);
+  } else if (
+    leftStripe.className == "orange" &&
+    middleStripe.className == "white" &&
+    rigthStripe.className == "green"
+  ) {
+    alert("Pour voir la CÔTE-D'IVOIRE clique sur OK");
+    setGradientColorsToButton(45);
+  } else if (
+    leftStripe.className == "green" &&
+    middleStripe.className == "white" &&
+    rigthStripe.className == "orange"
+  ) {
+    alert("Pour voir l'IRLANDE clique sur OK");
+    setGradientColorsToButton(100);
+  } else if (
+    leftStripe.className == "black" &&
+    middleStripe.className == "yellow" &&
+    rigthStripe.className == "red"
+  ) {
+    alert("Pour voir la BELGIQUE clique sur OK");
+    setGradientColorsToButton(2);
+  } else if (
+    leftStripe.className == "red" &&
+    middleStripe.className == "yellow" &&
+    rigthStripe.className == "green"
+  ) {
+    alert("Pour voir la GUINEE clique sur OK");
+    setGradientColorsToButton(125);
+  } else if (
+    leftStripe.className == "green" &&
+    middleStripe.className == "yellow" &&
+    rigthStripe.className == "red"
+  ) {
+    alert("Pour voir le MALI clique sur OK");
+    setGradientColorsToButton(103);
+  } else if (
+    leftStripe.className == "blue" &&
+    middleStripe.className == "yellow" &&
+    rigthStripe.className == "red"
+  ) {
+    alert("Pour voir la ROUMANIE clique sur OK");
+    setGradientColorsToButton(56);
+  }
+}

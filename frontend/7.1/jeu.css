@@ -9,32 +9,32 @@ body {
       padding: 3rem;
       display: flex;
       height: 40%; }
-      html .flag .blue-stripe,
-      body .flag .blue-stripe {
+      html .flag .blue,
+      body .flag .blue {
         width: 33.33%;
         background-color: #002664; }
-      html .flag .white-stripe,
-      body .flag .white-stripe {
+      html .flag .white,
+      body .flag .white {
         width: 33.33%;
         background-color: #ffffff; }
-      html .flag .red-stripe,
-      body .flag .red-stripe {
+      html .flag .red,
+      body .flag .red {
         width: 33.33%;
         background-color: #cc1e1e; }
-      html .flag .green-stripe,
-      body .flag .green-stripe {
+      html .flag .green,
+      body .flag .green {
         width: 33.33%;
         background-color: #066e1c; }
-      html .flag .orange-stripe,
-      body .flag .orange-stripe {
+      html .flag .orange,
+      body .flag .orange {
         width: 33.33%;
         background-color: #ff6600; }
-      html .flag .black-stripe,
-      body .flag .black-stripe {
+      html .flag .black,
+      body .flag .black {
         width: 33.33%;
         background-color: #000000; }
-      html .flag .yellow-stripe,
-      body .flag .yellow-stripe {
+      html .flag .yellow,
+      body .flag .yellow {
         width: 33.33%;
         background-color: #fddb20; }
     html .buttonContainer,
@@ -42,8 +42,8 @@ body {
       display: flex;
       justify-content: center;
       align-items: center; }
-      html .buttonContainer #btn,
-      body .buttonContainer #btn {
+      html .buttonContainer #buttonToChangeColors,
+      body .buttonContainer #buttonToChangeColors {
         border: 0px;
         width: 60%;
         padding: 3%;
@@ -54,32 +54,32 @@ body {
       padding: 3rem;
       display: flex;
       height: 57%; }
-      html .flag .blue-stripe,
-      body .flag .blue-stripe {
+      html .flag .blue,
+      body .flag .blue {
         width: 33.33%;
         background-color: #002664; }
-      html .flag .white-stripe,
-      body .flag .white-stripe {
+      html .flag .white,
+      body .flag .white {
         width: 33.33%;
         background-color: #ffffff; }
-      html .flag .red-stripe,
-      body .flag .red-stripe {
+      html .flag .red,
+      body .flag .red {
         width: 33.33%;
         background-color: #cc1e1e; }
-      html .flag .green-stripe,
-      body .flag .green-stripe {
+      html .flag .green,
+      body .flag .green {
         width: 33.33%;
         background-color: #066e1c; }
-      html .flag .orange-stripe,
-      body .flag .orange-stripe {
+      html .flag .orange,
+      body .flag .orange {
         width: 33.33%;
         background-color: #ff6600; }
-      html .flag .black-stripe,
-      body .flag .black-stripe {
+      html .flag .black,
+      body .flag .black {
         width: 33.33%;
         background-color: #000000; }
-      html .flag .yellow-stripe,
-      body .flag .yellow-stripe {
+      html .flag .yellow,
+      body .flag .yellow {
         width: 33.33%;
         background-color: #fddb20; }
     html .buttonContainer,
@@ -87,8 +87,8 @@ body {
       display: flex;
       justify-content: center;
       align-items: center; }
-      html .buttonContainer #btn,
-      body .buttonContainer #btn {
+      html .buttonContainer #buttonToChangeColors,
+      body .buttonContainer #buttonToChangeColors {
         border: 0px;
         width: 40%;
         padding: 3%;
@@ -99,36 +99,36 @@ body {
       padding: 3rem;
       display: flex;
       height: 65%; }
-      html .flag .blue-stripe,
-      body .flag .blue-stripe {
+      html .flag .blue,
+      body .flag .blue {
         width: 33.33%;
         background-color: #002664; }
-      html .flag .white-stripe,
-      body .flag .white-stripe {
+      html .flag .white,
+      body .flag .white {
         width: 33.33%;
         background-color: #ffffff; }
-      html .flag .red-stripe,
-      body .flag .red-stripe {
+      html .flag .red,
+      body .flag .red {
         width: 33.33%;
         background-color: #cc1e1e; }
-      html .flag .green-stripe,
-      body .flag .green-stripe {
+      html .flag .green,
+      body .flag .green {
         width: 33.33%;
         background-color: #066e1c; }
-      html .flag .orange-stripe,
-      body .flag .orange-stripe {
+      html .flag .orange,
+      body .flag .orange {
         width: 33.33%;
         background-color: #ff6600; }
-      html .flag .black-stripe,
-      body .flag .black-stripe {
+      html .flag .black,
+      body .flag .black {
         width: 33.33%;
         background-color: #000000; }
-      html .flag .yellow-stripe,
-      body .flag .yellow-stripe {
+      html .flag .yellow,
+      body .flag .yellow {
         width: 33.33%;
         background-color: #fddb20; }
-      html .flag .indigo-stripe,
-      body .flag .indigo-stripe {
+      html .flag .indigo,
+      body .flag .indigo {
         width: 33.33%;
         background-color: #002664; }
     html .buttonContainer,
@@ -136,8 +136,8 @@ body {
       display: flex;
       justify-content: center;
       align-items: center; }
-      html .buttonContainer #btn,
-      body .buttonContainer #btn {
+      html .buttonContainer #buttonToChangeColors,
+      body .buttonContainer #buttonToChangeColors {
         border: 0px;
         width: 40%;
         padding: 3%;
@@ -148,32 +148,32 @@ body {
       padding: 3rem;
       display: flex;
       height: 70%; }
-      html .flag .blue-stripe,
-      body .flag .blue-stripe {
+      html .flag .blue,
+      body .flag .blue {
         width: 33.33%;
         background-color: #002664; }
-      html .flag .white-stripe,
-      body .flag .white-stripe {
+      html .flag .white,
+      body .flag .white {
         width: 33.33%;
         background-color: #ffffff; }
-      html .flag .red-stripe,
-      body .flag .red-stripe {
+      html .flag .red,
+      body .flag .red {
         width: 33.33%;
         background-color: #cc1e1e; }
-      html .flag .green-stripe,
-      body .flag .green-stripe {
+      html .flag .green,
+      body .flag .green {
         width: 33.33%;
         background-color: #066e1c; }
-      html .flag .orange-stripe,
-      body .flag .orange-stripe {
+      html .flag .orange,
+      body .flag .orange {
         width: 33.33%;
         background-color: #ff6600; }
-      html .flag .black-stripe,
-      body .flag .black-stripe {
+      html .flag .black,
+      body .flag .black {
         width: 33.33%;
         background-color: #000000; }
-      html .flag .yellow-stripe,
-      body .flag .yellow-stripe {
+      html .flag .yellow,
+      body .flag .yellow {
         width: 33.33%;
         background-color: #fddb20; }
     html .buttonContainer,
@@ -181,8 +181,8 @@ body {
       display: flex;
       justify-content: center;
       align-items: center; }
-      html .buttonContainer #btn,
-      body .buttonContainer #btn {
+      html .buttonContainer #buttonToChangeColors,
+      body .buttonContainer #buttonToChangeColors {
         border: 0px;
         width: 40%;
         padding: 3%;
