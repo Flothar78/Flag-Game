@@ -1,0 +1,210 @@
+html,
+body {
+  $blue: #002664;
+  $white: #ffffff;
+  $black: #000000;
+  $green: #066e1c;
+  $orange: #ff6600;
+  $red: #cc1e1e;
+  $yellow: #fddb20;
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(
+    0.335turn,
+    $blue,
+    $white,
+    $red,
+    $green,
+    $orange,
+    $black,
+    $yellow
+  );
+  @media screen and (max-width: 599px) {
+    .flag {
+      padding: 3rem;
+      display: flex;
+      height: 40%;
+      .blue-stripe {
+        width: 33.33%;
+        background-color: $blue;
+      }
+      .white-stripe {
+        width: 33.33%;
+        background-color: $white;
+      }
+      .red-stripe {
+        width: 33.33%;
+        background-color: $red;
+      }
+      .green-stripe {
+        width: 33.33%;
+        background-color: $green;
+      }
+      .orange-stripe {
+        width: 33.33%;
+        background-color: $orange;
+      }
+      .black-stripe {
+        width: 33.33%;
+        background-color: $black;
+      }
+      .yellow-stripe {
+        width: 33.33%;
+        background-color: $yellow;
+      }
+    }
+    .buttonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      #btn {
+        border: 0px;
+        width: 60%;
+        padding: 3%;
+        border-radius: 20px;
+      }
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 899px) {
+    .flag {
+      padding: 3rem;
+      display: flex;
+      height: 57%;
+      .blue-stripe {
+        width: 33.33%;
+        background-color: $blue;
+      }
+      .white-stripe {
+        width: 33.33%;
+        background-color: $white;
+      }
+      .red-stripe {
+        width: 33.33%;
+        background-color: $red;
+      }
+      .green-stripe {
+        width: 33.33%;
+        background-color: $green;
+      }
+      .orange-stripe {
+        width: 33.33%;
+        background-color: $orange;
+      }
+      .black-stripe {
+        width: 33.33%;
+        background-color: $black;
+      }
+      .yellow-stripe {
+        width: 33.33%;
+        background-color: $yellow;
+      }
+    }
+    .buttonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      #btn {
+        border: 0px;
+        width: 40%;
+        padding: 3%;
+        border-radius: 20px;
+      }
+    }
+  }
+  @media screen and (min-width: 900px) and (max-width: 1199px) {
+    .flag {
+      padding: 3rem;
+      display: flex;
+      height: 65%;
+      .blue-stripe {
+        width: 33.33%;
+        background-color: $blue;
+      }
+      .white-stripe {
+        width: 33.33%;
+        background-color: $white;
+      }
+      .red-stripe {
+        width: 33.33%;
+        background-color: $red;
+      }
+      .green-stripe {
+        width: 33.33%;
+        background-color: $green;
+      }
+      .orange-stripe {
+        width: 33.33%;
+        background-color: $orange;
+      }
+      .black-stripe {
+        width: 33.33%;
+        background-color: $black;
+      }
+      .yellow-stripe {
+        width: 33.33%;
+        background-color: $yellow;
+      }
+      .indigo-stripe {
+        width: 33.33%;
+        background-color: $blue;
+      }
+    }
+    .buttonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      #btn {
+        border: 0px;
+        width: 40%;
+        padding: 3%;
+        border-radius: 20px;
+      }
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .flag {
+      padding: 3rem;
+      display: flex;
+      height: 70%;
+      .blue-stripe {
+        width: 33.33%;
+        background-color: $blue;
+      }
+      .white-stripe {
+        width: 33.33%;
+        background-color: $white;
+      }
+      .red-stripe {
+        width: 33.33%;
+        background-color: $red;
+      }
+      .green-stripe {
+        width: 33.33%;
+        background-color: $green;
+      }
+      .orange-stripe {
+        width: 33.33%;
+        background-color: $orange;
+      }
+      .black-stripe {
+        width: 33.33%;
+        background-color: $black;
+      }
+      .yellow-stripe {
+        width: 33.33%;
+        background-color: $yellow;
+      }
+    }
+    .buttonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      #btn {
+        border: 0px;
+        width: 40%;
+        padding: 3%;
+        border-radius: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "type": "module"
+  },
+  "node": "^19.2.0"
+}
